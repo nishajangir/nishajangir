@@ -171,20 +171,16 @@ Automation script for scraping partner commission records, exporting structured 
 
 ---
 
-## GitHub Stats 📈
+## GitHub Snapshot
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=nishajangir&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="github stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nishajangir&layout=compact&theme=tokyonight&hide_border=true" alt="top languages" />
-</p>
+[![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
+[![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
+[![Stars](https://img.shields.io/badge/Stars-Viewed_on_GitHub-f59e0b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=stars)
+[![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
 
-<p align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=nishajangir&theme=tokyonight&hide_border=true" alt="streak stats" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=0d1117&color=58a6ff&line=3fb950&point=f778ba&area=true&hide_border=true" alt="activity graph" />
-</p>
+- Public profile and contribution activity are available directly on GitHub
+- Featured public repository: `jagdamba-site`
+- Active work spans trading systems, dashboards, bots, reporting, and automation
 
 ---
 
