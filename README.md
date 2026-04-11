@@ -2,7 +2,8 @@
 
 <p>
   <strong>Nisha Jangir</strong><br/>
-  Software builder focused on trading infrastructure, automation systems, and operational tooling.
+  Software builder focused on trading infrastructure, automation systems, and operational tooling.<br/>
+  Dubai, UAE • GST / Dubai Time
 </p>
 
 I build software for trading and business operations across bots, dashboards, data pipelines, reporting systems, and MT4/MT5 workflow tooling.
@@ -16,14 +17,6 @@ My focus is on turning manual, fragmented processes into reliable systems that i
 ![Ops](https://img.shields.io/badge/OPS-059669?style=for-the-badge)
 ![Trading](https://img.shields.io/badge/TRADING-7c3aed?style=for-the-badge&logo=tradingview&logoColor=white)
 ![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=for-the-badge)
-
-## Snapshot
-
-- 📍 Dubai, UAE
-- 🕒 GST / Dubai Time
-- 💼 Python Automation
-- 📊 Reporting Systems
-- 🤖 Telegram Bots
 
 ## Skill Set
 
@@ -120,12 +113,7 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 <img src=".github-profile-assets/stats-overview.svg" alt="GitHub stats overview" width="780" />
 
-<p>
-  <a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/Profile-GitHub-1f2328?style=flat-square&logo=github&logoColor=white" alt="Profile" /></a>
-  <a href="https://github.com/nishajangir?tab=repositories"><img src="https://img.shields.io/badge/Repositories-View_Work-2563eb?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
-  <a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/Activity-Contributions-16a34a?style=flat-square&logo=github&logoColor=white" alt="Activity" /></a>
-  <a href="https://www.jagdamba.site"><img src="https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=flat-square&logo=vercel&logoColor=white" alt="Live Project" /></a>
-</p>
+<sub><a href="https://github.com/nishajangir">Profile</a> • <a href="https://github.com/nishajangir?tab=repositories">Repositories</a> • <a href="https://github.com/nishajangir">Activity</a> • <a href="https://www.jagdamba.site">Live Project</a></sub>
 
 ### Most Used Languages
 
@@ -139,22 +127,7 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ---
 
-## Current Direction
-
-![Ops Automation](https://img.shields.io/badge/OPS_AUTOMATION-2563eb?style=for-the-badge)
-![Better Reporting](https://img.shields.io/badge/BETTER_REPORTING-16a34a?style=for-the-badge)
-![Financial Tracking](https://img.shields.io/badge/FINANCIAL_TRACKING-c2410c?style=for-the-badge)
-![Business Interfaces](https://img.shields.io/badge/BUSINESS_INTERFACES-7c3aed?style=for-the-badge)
-
-- Stronger automation around operational reporting
-- Cleaner financial and client tracking systems
-- Better interfaces for business users and admins
-- Software that removes repetitive coordination work
-
----
-
 ## Let's Connect 🤝
 
 [![GitHub](https://img.shields.io/badge/GITHUB-NISHAJANGIR-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
 [![Email](https://img.shields.io/badge/EMAIL-CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:30184442+nishajangir@users.noreply.github.com)
-[![View Work](https://img.shields.io/badge/VIEW-WORK-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
