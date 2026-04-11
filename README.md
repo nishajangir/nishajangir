@@ -127,14 +127,26 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ### Most Used Languages
 
-Approx. based on tracked source files across current local project repos.
+<img src=".github-profile-assets/language-bar.svg" alt="Most used languages bar" width="780" />
 
-| Language | Share | Language | Share |
-| --- | --- | --- | --- |
-| 🟦 TypeScript | `42.83%` | 🟧 HTML | `2.23%` |
-| 🟨 Python | `33.90%` | 🟫 Shell | `0.53%` |
-| 🟪 MQL4 | `19.64%` | 🟦 CSS | `0.45%` |
-| 🟥 JavaScript | `0.43%` |  |  |
+<table>
+  <tr>
+    <td>🔵 TypeScript <strong>42.83%</strong></td>
+    <td>🟠 HTML <strong>2.23%</strong></td>
+  </tr>
+  <tr>
+    <td>🟡 Python <strong>33.90%</strong></td>
+    <td>🟤 Shell <strong>0.53%</strong></td>
+  </tr>
+  <tr>
+    <td>🟣 MQL4 <strong>19.64%</strong></td>
+    <td>🔷 CSS <strong>0.45%</strong></td>
+  </tr>
+  <tr>
+    <td>🔴 JavaScript <strong>0.43%</strong></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Contribution Activity
 
