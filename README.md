@@ -1,9 +1,13 @@
-<img align="right" src="https://github.com/nishajangir.png?size=220" width="220" alt="Nisha Jangir" />
+<p align="center">
+  <img src="https://github.com/nishajangir.png?size=220" width="220" alt="Nisha Jangir" />
+</p>
 
-# Hi There, I'm Nisha 👋
+<h1 align="center">Hi There, I'm Nisha 👋</h1>
 
-**Nisha Jangir**  
-Founder-minded builder focused on automation, ops systems, and practical software.
+<p align="center">
+  <strong>Nisha Jangir</strong><br/>
+  Founder-minded builder focused on automation, ops systems, and practical software.
+</p>
 
 I work on automation, structured data pipelines, client and payment tracking, Excel reporting, and business-facing software that supports operational workflows.
 
