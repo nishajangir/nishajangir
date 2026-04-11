@@ -1,10 +1,18 @@
 <table>
   <tr>
-    <td width="30%" valign="top">
-      <img src="https://github.com/nishajangir.png?size=220" width="220" alt="Nisha Jangir" />
+    <td width="28%" valign="top">
+      <p align="center">
+        <img src="https://github.com/nishajangir.png?size=220" width="220" alt="Nisha Jangir" />
+      </p>
       <h2>Nisha Jangir</h2>
-      <p><strong>Founder-minded builder</strong><br/>automation, ops systems, and practical software</p>
-      <p>I build systems that reduce manual work, improve reporting clarity, and turn repetitive business workflows into reliable software.</p>
+      <p>
+        <strong>Founder-minded builder</strong><br/>
+        automation, ops systems, and practical software
+      </p>
+      <p>
+        I build systems that reduce manual work, improve reporting clarity,
+        and turn repetitive business workflows into reliable software.
+      </p>
       <p>📍 India</p>
       <p>🕒 IST</p>
       <p>💼 Python Automation</p>
@@ -14,7 +22,7 @@
         <img src="https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=flat-square" alt="profile views" />
       </p>
     </td>
-    <td width="70%" valign="top">
+    <td width="72%" valign="top">
       <h1>Hi There, I'm Nisha 👋</h1>
       <p>
         I work on automation, structured data pipelines, client and payment tracking,
@@ -24,7 +32,6 @@
         My focus is on shipping practical tools that remove repetitive coordination work,
         improve visibility, and make daily operations easier to manage.
       </p>
-
       <p>
         <img src="https://img.shields.io/badge/AUTOMATION-ff6b35?style=for-the-badge&logo=githubactions&logoColor=white" alt="automation" />
         <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python" />
@@ -51,13 +58,13 @@
       <p>
         <img src="https://img.shields.io/badge/PYTHON_AUTOMATION-1d4ed8?style=flat-square&logo=python&logoColor=white" alt="python automation" />
         <img src="https://img.shields.io/badge/TELEGRAM_BOTS-0ea5e9?style=flat-square&logo=telegram&logoColor=white" alt="telegram bots" />
-        <img src="https://img.shields.io/badge/CSV_&_EXCEL-c2410c?style=flat-square&logo=microsoftexcel&logoColor=white" alt="csv and excel" />
+        <img src="https://img.shields.io/badge/CSV_%26_EXCEL-c2410c?style=flat-square&logo=microsoftexcel&logoColor=white" alt="csv and excel" />
         <img src="https://img.shields.io/badge/DATA_CLEANUP-9333ea?style=flat-square" alt="data cleanup" />
         <img src="https://img.shields.io/badge/RECONCILIATION-0891b2?style=flat-square" alt="reconciliation" />
         <img src="https://img.shields.io/badge/TRADING_BACKOFFICE-4f46e5?style=flat-square" alt="trading backoffice" />
       </p>
 
-      <h3>Languages & Tools</h3>
+      <h3>Languages &amp; Tools</h3>
       <p>
         <img src="https://skillicons.dev/icons?i=python,git,github,vscode,sqlite" alt="skills" />
       </p>
@@ -82,15 +89,13 @@
   Telegram bot for automating OctaFX IB commission calculations, payment tracking,
   weekly deltas, client history management, and Excel-based operational reporting.
 </p>
-
-<p><strong>Highlights</strong></p>
-
-- CSV upload and processing
-- Weekly commission difference calculation
-- Client and payment history tracking
-- Rebate and lot-based reporting
-- Excel report generation for ops workflows
-
+<ul>
+  <li>CSV upload and processing</li>
+  <li>Weekly commission difference calculation</li>
+  <li>Client and payment history tracking</li>
+  <li>Rebate and lot-based reporting</li>
+  <li>Excel report generation for ops workflows</li>
+</ul>
 <p>
   <a href="https://github.com/nishajangir/octa-hisab-automation">
     <img src="https://img.shields.io/badge/VIEW_REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white" alt="view repository" />
@@ -124,11 +129,12 @@
   <img src="https://img.shields.io/badge/FINANCIAL_TRACKING-c2410c?style=for-the-badge" alt="financial tracking" />
   <img src="https://img.shields.io/badge/BUSINESS_INTERFACES-7c3aed?style=for-the-badge" alt="business interfaces" />
 </p>
-
-- Stronger automation around operational reporting
-- Cleaner financial and client tracking systems
-- Better interfaces for business users and admins
-- Software that removes repetitive coordination work
+<ul>
+  <li>Stronger automation around operational reporting</li>
+  <li>Cleaner financial and client tracking systems</li>
+  <li>Better interfaces for business users and admins</li>
+  <li>Software that removes repetitive coordination work</li>
+</ul>
 
 <hr/>
 
