@@ -118,29 +118,18 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ## GitHub Stats 📈
 
-Quick view of my public work, active stack, and contribution footprint.
+<img src=".github-profile-assets/stats-overview.svg" alt="GitHub stats overview" width="780" />
 
-<table>
-  <tr>
-    <td align="center"><strong>Profile</strong><br/><br/><a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/PROFILE-NISHAJANGIR-1f2328?style=for-the-badge&logo=github&logoColor=white" alt="Profile" /></a></td>
-    <td align="center"><strong>Repositories</strong><br/><br/><a href="https://github.com/nishajangir?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-VIEW_WORK-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a></td>
-    <td align="center"><strong>Activity</strong><br/><br/><a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/ACTIVITY-CONTRIBUTIONS-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Activity" /></a></td>
-    <td align="center"><strong>Live Project</strong><br/><br/><a href="https://www.jagdamba.site"><img src="https://img.shields.io/badge/JAGDAMBA.SITE-LIVE-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Project" /></a></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td><strong>Core Stack</strong><br/>Python, TypeScript, JavaScript, SQL, MQL4</td>
-    <td><strong>Work Type</strong><br/>Bots, dashboards, data pipelines, reporting</td>
-  </tr>
-  <tr>
-    <td><strong>Public Signal</strong><br/>Public repositories and contribution activity on GitHub</td>
-    <td><strong>Focus</strong><br/>Trading systems, ops tooling, automation</td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/Profile-GitHub-1f2328?style=flat-square&logo=github&logoColor=white" alt="Profile" /></a>
+  <a href="https://github.com/nishajangir?tab=repositories"><img src="https://img.shields.io/badge/Repositories-View_Work-2563eb?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/Activity-Contributions-16a34a?style=flat-square&logo=github&logoColor=white" alt="Activity" /></a>
+  <a href="https://www.jagdamba.site"><img src="https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=flat-square&logo=vercel&logoColor=white" alt="Live Project" /></a>
+</p>
 
 ### Most Used Languages
+
+<sub>Approx. based on tracked source files across current local project repos.</sub>
 
 <img src=".github-profile-assets/language-panel.svg" alt="Most used languages" width="780" />
 

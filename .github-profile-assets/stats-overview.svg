@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" viewBox="0 0 780 250" role="img" aria-label="GitHub stats overview">
+  <style>
+    .card { fill: #11161d; stroke: #30363d; stroke-width: 1; }
+    .panel { fill: #0f141b; stroke: #30363d; stroke-width: 1; }
+    .kicker { font: 600 14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #8b949e; letter-spacing: 1.6px; text-transform: uppercase; }
+    .value { font: 700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #e6edf3; }
+    .label { font: 600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #c9d1d9; }
+    .body { font: 600 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #c9d1d9; }
+    .accentBlue { fill: #58a6ff; }
+    .accentGreen { fill: #3fb950; }
+    .accentOrange { fill: #f97316; }
+    .accentPurple { fill: #a855f7; }
+  </style>
+  <rect x="0" y="0" width="180" height="92" rx="16" class="card"/>
+  <rect x="200" y="0" width="180" height="92" rx="16" class="card"/>
+  <rect x="400" y="0" width="180" height="92" rx="16" class="card"/>
+  <rect x="600" y="0" width="180" height="92" rx="16" class="card"/>
+  <text x="24" y="30" class="kicker">Profile</text>
+  <circle cx="30" cy="64" r="6" class="accentBlue"/>
+  <text x="48" y="71" class="value">nishajangir</text>
+  <text x="224" y="30" class="kicker">Repositories</text>
+  <circle cx="230" cy="64" r="6" class="accentBlue"/>
+  <text x="248" y="71" class="value">View Work</text>
+  <text x="424" y="30" class="kicker">Activity</text>
+  <circle cx="430" cy="64" r="6" class="accentGreen"/>
+  <text x="448" y="71" class="value">Contribution</text>
+  <text x="624" y="30" class="kicker">Live Project</text>
+  <circle cx="630" cy="64" r="6" class="accentPurple"/>
+  <text x="648" y="71" class="value">jagdamba.site</text>
+  <rect x="0" y="118" width="380" height="132" rx="16" class="panel"/>
+  <rect x="400" y="118" width="380" height="132" rx="16" class="panel"/>
+  <text x="24" y="148" class="kicker">Core Stack</text>
+  <text x="24" y="184" class="body">Python, TypeScript, JavaScript,</text>
+  <text x="24" y="212" class="body">SQL, MQL4</text>
+  <text x="424" y="148" class="kicker">Focus</text>
+  <text x="424" y="184" class="body">Trading systems, bots, dashboards,</text>
+  <text x="424" y="212" class="body">data pipelines, reporting</text>
+</svg>
