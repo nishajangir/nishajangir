@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/nishajangir.png?size=220" width="220" alt="Nisha Jangir" />
-</p>
-
 <h1 align="center">Hi There, I'm Nisha 👋</h1>
 
 <p align="center">
@@ -23,8 +19,8 @@ My focus is on shipping practical tools that remove repetitive coordination work
 
 ## Snapshot
 
-- 📍 India
-- 🕒 IST
+- 📍 Dubai, UAE
+- 🕒 GST / Dubai Time
 - 💼 Python Automation
 - 📊 Reporting Systems
 - 🤖 Telegram Bots
