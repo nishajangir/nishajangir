@@ -136,6 +136,10 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
+### Contribution Activity
+
+[![Nisha's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=0d1117&color=58a6ff&line=3fb950&point=f59e0b&area=true&hide_border=true)](https://github.com/nishajangir)
+
 ---
 
 ## Current Direction
