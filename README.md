@@ -66,7 +66,18 @@ These are the areas and tools I work with most often:
 
 ## Selected Work
 
-### Octa Hisab Automation
+### Public Projects
+
+#### Jagdamba Site
+
+Professional website built using React and Next.js for live brand presence and modern web delivery.
+
+[![Live Site](https://img.shields.io/badge/LIVE_SITE-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site)
+[![Repository](https://img.shields.io/badge/REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir/jagdamba-site)
+
+### Private and Active Systems
+
+#### Octa Hisab Automation
 
 Telegram bot for automating OctaFX IB commission calculations, payment tracking, weekly deltas, client history management, and Excel-based operational reporting.
 
@@ -76,7 +87,52 @@ Telegram bot for automating OctaFX IB commission calculations, payment tracking,
 - Rebate and lot-based reporting
 - Excel report generation for ops workflows
 
-[![View Repository](https://img.shields.io/badge/VIEW_REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir/octa-hisab-automation)
+#### Trading PnL Monitor
+
+Full-stack MT4/MT5 trading account monitoring platform with role-based dashboards, automated sync, copy trading, payment flows, reports, and Telegram operations.
+
+- FastAPI + Next.js architecture
+- MT4/MT5 sync and trade ingestion
+- Admin, manager, and investor dashboards
+- Copy trading configuration and status tracking
+- Payment summaries, reports, and automation workflows
+
+#### Premium Profit
+
+Real-time XAUUSD Spot vs GC Future premium tracking dashboard for arbitrage monitoring and trading alerts.
+
+- Real-time dashboard and charting
+- Premium calculator and alerting
+- Analytics and threshold-based monitoring
+- Next.js + TypeScript frontend
+
+#### AI Trading Bot
+
+Telegram and WhatsApp bot for automated copy trading with signal parsing, MT4/MT5 integration, and risk-based lot sizing.
+
+- Dual platform bot flows
+- Signal parsing and trade automation
+- Risk management formulas
+- VPS deployment workflow
+
+#### MT4 Tooling Suite
+
+A collection of trading indicators, scanners, and EAs including `SmartTradeAlert`, `TelegramBridge`, `NJ_MultiPairHybridScanner`, and one-trade execution systems.
+
+- Broker symbol auto-mapping
+- Startup diagnostics and reporting
+- Portfolio risk guardrails
+- Telegram bridge for signal delivery
+- MT4 automation for scanner and execution workflows
+
+#### VPFX Commission Scraper
+
+Automation script for scraping partner commission records, exporting structured CSVs, tracking progress, and resuming long-running extraction jobs.
+
+- Session-authenticated scraping
+- Retry and resume support
+- CSV export and reporting
+- CLI progress and runtime stats
 
 ---
 
