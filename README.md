@@ -127,35 +127,21 @@ These are the areas and tools I work with most often:
 
 ### Tools
 
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![openpyxl](https://img.shields.io/badge/openpyxl-1d6f42?style=flat-square&logo=microsoftexcel&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=flat-square&logo=sqlalchemy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=flat-square)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-059669?style=flat-square)
-![Alembic](https://img.shields.io/badge/Alembic-6b7280?style=flat-square)
-![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square)
-![Radix UI](https://img.shields.io/badge/Radix_UI-111827?style=flat-square)
-![Lucide React](https://img.shields.io/badge/Lucide_React-f97316?style=flat-square)
-![next-themes](https://img.shields.io/badge/next--themes-000000?style=flat-square)
-![APScheduler](https://img.shields.io/badge/APScheduler-0f766e?style=flat-square)
-![asyncpg](https://img.shields.io/badge/asyncpg-334155?style=flat-square)
-![aiosqlite](https://img.shields.io/badge/aiosqlite-2563eb?style=flat-square)
-![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)
-![Lightweight Charts](https://img.shields.io/badge/Lightweight_Charts-0f172a?style=flat-square)
+| Git | GitHub | VS Code | npm | pnpm | Linux |
+| --- | --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=git" width="46" alt="Git" /><br/>Git | <img src="https://skillicons.dev/icons?i=github" width="46" alt="GitHub" /><br/>GitHub | <img src="https://skillicons.dev/icons?i=vscode" width="46" alt="VS Code" /><br/>VS Code | <img src="https://skillicons.dev/icons?i=npm" width="46" alt="npm" /><br/>npm | ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white) | <img src="https://skillicons.dev/icons?i=linux" width="46" alt="Linux" /><br/>Linux |
+
+| FastAPI | SQLAlchemy | PostgreSQL | React | Next.js | Tailwind CSS |
+| --- | --- | --- | --- | --- | --- |
+| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | <img src="https://skillicons.dev/icons?i=postgresql" width="46" alt="PostgreSQL" /><br/>PostgreSQL | <img src="https://skillicons.dev/icons?i=react" width="46" alt="React" /><br/>React | <img src="https://skillicons.dev/icons?i=nextjs" width="46" alt="Next.js" /><br/>Next.js | <img src="https://skillicons.dev/icons?i=tailwind" width="46" alt="Tailwind CSS" /><br/>Tailwind |
+
+| pandas | openpyxl | HTTPX | Axios | Uvicorn | Alembic |
+| --- | --- | --- | --- | --- | --- |
+| ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![openpyxl](https://img.shields.io/badge/openpyxl-1d6f42?style=for-the-badge&logo=microsoftexcel&logoColor=white) | ![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=for-the-badge) | ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) | ![Uvicorn](https://img.shields.io/badge/Uvicorn-059669?style=for-the-badge) | ![Alembic](https://img.shields.io/badge/Alembic-6b7280?style=for-the-badge) |
+
+| React Hook Form | Radix UI | Lucide React | APScheduler | asyncpg | aiosqlite |
+| --- | --- | --- | --- | --- | --- |
+| ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge) | ![Radix UI](https://img.shields.io/badge/Radix_UI-111827?style=for-the-badge) | ![Lucide](https://img.shields.io/badge/Lucide_React-f97316?style=for-the-badge) | ![APScheduler](https://img.shields.io/badge/APScheduler-0f766e?style=for-the-badge) | ![asyncpg](https://img.shields.io/badge/asyncpg-334155?style=for-the-badge) | ![aiosqlite](https://img.shields.io/badge/aiosqlite-2563eb?style=for-the-badge) |
 
 ---
 
