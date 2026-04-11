@@ -110,64 +110,53 @@ Professional website built using React and Next.js for live brand presence and m
 [![Live Site](https://img.shields.io/badge/LIVE_SITE-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site)
 [![Repository](https://img.shields.io/badge/REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir/jagdamba-site)
 
-### Private and Active Systems
+### Technical Work
 
-#### Octa Hisab Automation
+#### Trading and Operations Infrastructure
 
-Telegram bot for automating OctaFX IB commission calculations, payment tracking, weekly deltas, client history management, and Excel-based operational reporting.
+I build internal systems for trading operations, reporting, reconciliation, and business workflow automation across dashboards, bots, and supporting services.
 
-- CSV upload and processing
-- Weekly commission difference calculation
-- Client and payment history tracking
-- Rebate and lot-based reporting
-- Excel report generation for ops workflows
+- MT4/MT5 data ingestion and trading workflow support
+- Role-based dashboards and operational interfaces
+- Payment, client, and reporting pipelines
+- Telegram-based admin and operator tooling
+- Execution support and monitoring flows
 
-#### Trading PnL Monitor
+#### Real-Time Market Monitoring
 
-Full-stack MT4/MT5 trading account monitoring platform with role-based dashboards, automated sync, copy trading, payment flows, reports, and Telegram operations.
+I work on real-time monitoring interfaces for price spreads, premium tracking, arbitrage visibility, and threshold-based alerting.
 
-- FastAPI + Next.js architecture
-- MT4/MT5 sync and trade ingestion
-- Admin, manager, and investor dashboards
-- Copy trading configuration and status tracking
-- Payment summaries, reports, and automation workflows
+- Live dashboards and charting
+- Event-driven alert workflows
+- Market data visualization
+- Operator-focused monitoring interfaces
 
-#### Premium Profit
+#### Automation Bots and Integrations
 
-Real-time XAUUSD Spot vs GC Future premium tracking dashboard for arbitrage monitoring and trading alerts.
+I build automation bots that connect messaging platforms, trading workflows, and reporting systems.
 
-- Real-time dashboard and charting
-- Premium calculator and alerting
-- Analytics and threshold-based monitoring
-- Next.js + TypeScript frontend
+- Telegram and WhatsApp bot flows
+- Signal parsing and action routing
+- Risk-aware workflow automation
+- Deployment-ready operator tooling
 
-#### AI Trading Bot
+#### Trading Tooling and Execution Support
 
-Telegram and WhatsApp bot for automated copy trading with signal parsing, MT4/MT5 integration, and risk-based lot sizing.
+I develop trading-side tooling for chart workflows, execution support, diagnostics, and operational guardrails.
 
-- Dual platform bot flows
-- Signal parsing and trade automation
-- Risk management formulas
-- VPS deployment workflow
+- Indicator and scanner-based workflow support
+- Symbol handling and broker compatibility logic
+- Runtime diagnostics and reporting
+- Risk controls and execution helpers
 
-#### MT4 Tooling Suite
+#### Data Extraction and Reporting Automation
 
-A collection of trading indicators, scanners, and EAs including `SmartTradeAlert`, `TelegramBridge`, `NJ_MultiPairHybridScanner`, and one-trade execution systems.
+I build data extraction scripts and reporting utilities for commission workflows, exports, reconciliation, and long-running job handling.
 
-- Broker symbol auto-mapping
-- Startup diagnostics and reporting
-- Portfolio risk guardrails
-- Telegram bridge for signal delivery
-- MT4 automation for scanner and execution workflows
-
-#### VPFX Commission Scraper
-
-Automation script for scraping partner commission records, exporting structured CSVs, tracking progress, and resuming long-running extraction jobs.
-
-- Session-authenticated scraping
-- Retry and resume support
-- CSV export and reporting
-- CLI progress and runtime stats
+- Session-authenticated scraping and structured exports
+- Resume and retry-safe automation flows
+- CSV and Excel reporting outputs
+- Progress tracking and operational visibility
 
 ---
 
