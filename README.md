@@ -1,6 +1,6 @@
-<h1 align="center">Hi There, I'm Nisha 👋</h1>
+<h1>Hi There, I'm Nisha 👋</h1>
 
-<p align="center">
+<p>
   <strong>Nisha Jangir</strong><br/>
   Founder-minded builder focused on automation, ops systems, and practical software.
 </p>
