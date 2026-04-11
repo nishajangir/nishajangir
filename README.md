@@ -9,12 +9,12 @@ I build software for trading and business operations across bots, dashboards, da
 
 My focus is on turning manual, fragmented processes into reliable systems that improve visibility, speed, and operator efficiency.
 
-![Automation](https://img.shields.io/badge/AUTOMATION-ff6b35?style=for-the-badge&logo=githubactions&logoColor=white)
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Telegram Bots](https://img.shields.io/badge/TELEGRAM_BOTS-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-![Reporting](https://img.shields.io/badge/REPORTING-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Data Workflows](https://img.shields.io/badge/DATA_WORKFLOWS-0ea5e9?style=for-the-badge&logo=pandas&logoColor=white)
-![Trading Ops](https://img.shields.io/badge/TRADING_OPS-7c3aed?style=for-the-badge&logo=tradingview&logoColor=white)
+![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=flat-square)
+![Automation](https://img.shields.io/badge/Automation-ff6b35?style=flat-square&logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Telegram Bots](https://img.shields.io/badge/Telegram_Bots-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![Data Workflows](https://img.shields.io/badge/Data_Workflows-0ea5e9?style=flat-square&logo=pandas&logoColor=white)
+![Trading Ops](https://img.shields.io/badge/Trading_Ops-7c3aed?style=flat-square&logo=tradingview&logoColor=white)
 
 ## Snapshot
 
