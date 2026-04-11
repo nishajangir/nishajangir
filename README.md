@@ -128,13 +128,14 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ### Most Used Languages
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MQL4](https://img.shields.io/badge/MQL4-2563eb?style=flat-square)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+Approx. based on tracked source files across current local project repos.
+
+| Language | Share | Language | Share |
+| --- | --- | --- | --- |
+| 🟦 TypeScript | `42.83%` | 🟧 HTML | `2.23%` |
+| 🟨 Python | `33.90%` | 🟫 Shell | `0.53%` |
+| 🟪 MQL4 | `19.64%` | 🟦 CSS | `0.45%` |
+| 🟥 JavaScript | `0.43%` |  |  |
 
 ### Contribution Activity
 
