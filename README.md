@@ -61,83 +61,31 @@ These are the areas and tools I work with most often:
 
 ### Frontend
 
-| React | Next.js | Tailwind CSS | Radix UI | Lightweight Charts |
-| --- | --- | --- | --- | --- |
-| <img src="https://skillicons.dev/icons?i=react" width="46" alt="React" /><br/>React | <img src="https://skillicons.dev/icons?i=nextjs" width="46" alt="Next.js" /><br/>Next.js | <img src="https://skillicons.dev/icons?i=tailwind" width="46" alt="Tailwind CSS" /><br/>Tailwind | ![Radix UI](https://img.shields.io/badge/Radix_UI-111827?style=for-the-badge) | ![Lightweight Charts](https://img.shields.io/badge/Lightweight_Charts-0f172a?style=for-the-badge) |
-
-### UI & Product Libraries
-
-| React Hook Form | Lucide React | Next Themes | Vercel Analytics | Embla Carousel |
-| --- | --- | --- | --- | --- |
-| ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge) | ![Lucide](https://img.shields.io/badge/Lucide_React-f97316?style=for-the-badge) | ![next-themes](https://img.shields.io/badge/next--themes-000000?style=for-the-badge) | ![Vercel Analytics](https://img.shields.io/badge/Vercel_Analytics-000000?style=for-the-badge&logo=vercel&logoColor=white) | ![Embla](https://img.shields.io/badge/Embla_Carousel-2563eb?style=for-the-badge) |
+| React | Next.js | Tailwind CSS | Radix UI | React Hook Form | Lightweight Charts |
+| --- | --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=react" width="46" alt="React" /><br/>React | <img src="https://skillicons.dev/icons?i=nextjs" width="46" alt="Next.js" /><br/>Next.js | <img src="https://skillicons.dev/icons?i=tailwind" width="46" alt="Tailwind CSS" /><br/>Tailwind | ![Radix UI](https://img.shields.io/badge/Radix_UI-111827?style=for-the-badge) | ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge) | ![Lightweight Charts](https://img.shields.io/badge/Lightweight_Charts-0f172a?style=for-the-badge) |
 
 ### Backend
 
-| FastAPI | Node.js | Uvicorn | SQLAlchemy | Telegram Bot APIs |
-| --- | --- | --- | --- | --- |
-| <img src="https://skillicons.dev/icons?i=fastapi" width="46" alt="FastAPI" /><br/>FastAPI | <img src="https://skillicons.dev/icons?i=nodejs" width="46" alt="Node.js" /><br/>Node.js | ![Uvicorn](https://img.shields.io/badge/Uvicorn-059669?style=for-the-badge) | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) |
-
-### Backend Services
-
-| HTTPX | Axios | APScheduler | Alembic | Cryptography |
-| --- | --- | --- | --- | --- |
-| ![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=for-the-badge) | ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) | ![APScheduler](https://img.shields.io/badge/APScheduler-0f766e?style=for-the-badge) | ![Alembic](https://img.shields.io/badge/Alembic-6b7280?style=for-the-badge) | ![Cryptography](https://img.shields.io/badge/Cryptography-7c3aed?style=for-the-badge) |
+| FastAPI | Node.js | Uvicorn | SQLAlchemy | HTTPX | Telegram Bot APIs |
+| --- | --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=fastapi" width="46" alt="FastAPI" /><br/>FastAPI | <img src="https://skillicons.dev/icons?i=nodejs" width="46" alt="Node.js" /><br/>Node.js | ![Uvicorn](https://img.shields.io/badge/Uvicorn-059669?style=for-the-badge) | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=for-the-badge) | ![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) |
 
 ### Data & Storage
 
-| PostgreSQL | SQLite | CSV / Excel | JSON | pandas / openpyxl |
-| --- | --- | --- | --- | --- |
-| <img src="https://skillicons.dev/icons?i=postgresql" width="46" alt="PostgreSQL" /><br/>PostgreSQL | <img src="https://skillicons.dev/icons?i=sqlite" width="46" alt="SQLite" /><br/>SQLite | ![CSV / Excel](https://img.shields.io/badge/CSV_/_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) | ![JSON](https://img.shields.io/badge/JSON-111827?style=for-the-badge&logo=json&logoColor=white) | ![pandas / openpyxl](https://img.shields.io/badge/pandas_/_openpyxl-150458?style=for-the-badge&logo=pandas&logoColor=white) |
+| PostgreSQL | SQLite | pandas / openpyxl | asyncpg / aiosqlite | CSV / Excel | JSON |
+| --- | --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=postgresql" width="46" alt="PostgreSQL" /><br/>PostgreSQL | <img src="https://skillicons.dev/icons?i=sqlite" width="46" alt="SQLite" /><br/>SQLite | ![pandas / openpyxl](https://img.shields.io/badge/pandas_/_openpyxl-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![asyncpg / aiosqlite](https://img.shields.io/badge/asyncpg_/_aiosqlite-334155?style=for-the-badge) | ![CSV / Excel](https://img.shields.io/badge/CSV_/_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) | ![JSON](https://img.shields.io/badge/JSON-111827?style=for-the-badge&logo=json&logoColor=white) |
 
-### Database Drivers & ORM
-
-| asyncpg | aiosqlite | SQLAlchemy | PostgreSQL | SQLite |
-| --- | --- | --- | --- | --- |
-| ![asyncpg](https://img.shields.io/badge/asyncpg-334155?style=for-the-badge) | ![aiosqlite](https://img.shields.io/badge/aiosqlite-2563eb?style=for-the-badge) | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | <img src="https://skillicons.dev/icons?i=postgresql" width="46" alt="PostgreSQL" /><br/>PostgreSQL | <img src="https://skillicons.dev/icons?i=sqlite" width="46" alt="SQLite" /><br/>SQLite |
-
-### Messaging & Trading Integrations
-
-| Telegram Bot API | WhatsApp Flows | MT4 / MT5 APIs | Signal Automation | Reporting Bots |
-| --- | --- | --- | --- | --- |
-| ![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) | ![WhatsApp](https://img.shields.io/badge/WhatsApp_Workflows-25D366?style=for-the-badge&logo=whatsapp&logoColor=white) | ![MT4 / MT5](https://img.shields.io/badge/MT4_/_MT5_APIs-1d4ed8?style=for-the-badge) | ![Signal Automation](https://img.shields.io/badge/Signal_Automation-f97316?style=for-the-badge) | ![Reporting Bots](https://img.shields.io/badge/Reporting_Bots-0f766e?style=for-the-badge) |
-
-### Workflow & Infra
+### Tools
 
 | Git | GitHub | VS Code | npm | pnpm | Linux / VPS |
 | --- | --- | --- | --- | --- | --- |
 | <img src="https://skillicons.dev/icons?i=git" width="46" alt="Git" /><br/>Git | <img src="https://skillicons.dev/icons?i=github" width="46" alt="GitHub" /><br/>GitHub | <img src="https://skillicons.dev/icons?i=vscode" width="46" alt="VS Code" /><br/>VS Code | <img src="https://skillicons.dev/icons?i=npm" width="46" alt="npm" /><br/>npm | ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white) | <img src="https://skillicons.dev/icons?i=linux" width="46" alt="Linux / VPS" /><br/>Linux / VPS |
 
-### Libraries & Frameworks
-
-| pandas | openpyxl | SQLAlchemy | APScheduler | Alembic | Axios |
+| Axios | APScheduler | Alembic | Lucide React | next-themes | Vercel Analytics |
 | --- | --- | --- | --- | --- | --- |
-| ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![openpyxl](https://img.shields.io/badge/openpyxl-1d6f42?style=for-the-badge&logo=microsoftexcel&logoColor=white) | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![APScheduler](https://img.shields.io/badge/APScheduler-0f766e?style=for-the-badge) | ![Alembic](https://img.shields.io/badge/Alembic-6b7280?style=for-the-badge) | ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) |
-
-### Frontend Ecosystem
-
-| Radix UI | React Hook Form | Lucide React | next-themes | Embla | Vercel Analytics |
-| --- | --- | --- | --- | --- | --- |
-| ![Radix UI](https://img.shields.io/badge/Radix_UI-111827?style=for-the-badge) | ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge) | ![Lucide](https://img.shields.io/badge/Lucide_React-f97316?style=for-the-badge) | ![next-themes](https://img.shields.io/badge/next--themes-000000?style=for-the-badge) | ![Embla](https://img.shields.io/badge/Embla_Carousel-2563eb?style=for-the-badge) | ![Vercel Analytics](https://img.shields.io/badge/Vercel_Analytics-000000?style=for-the-badge&logo=vercel&logoColor=white) |
-
-### Runtime & Deployment
-
-| Uvicorn | asyncpg | aiosqlite | Cryptography | Bash / Shell | VPS Workflows |
-| --- | --- | --- | --- | --- | --- |
-| ![Uvicorn](https://img.shields.io/badge/Uvicorn-059669?style=for-the-badge) | ![asyncpg](https://img.shields.io/badge/asyncpg-334155?style=for-the-badge) | ![aiosqlite](https://img.shields.io/badge/aiosqlite-2563eb?style=for-the-badge) | ![Cryptography](https://img.shields.io/badge/Cryptography-7c3aed?style=for-the-badge) | <img src="https://skillicons.dev/icons?i=bash" width="46" alt="Bash / Shell" /><br/>Bash / Shell | ![Linux VPS](https://img.shields.io/badge/Linux_VPS-1f2937?style=for-the-badge&logo=linux&logoColor=white) |
-
-### Tools
-
-| Git | GitHub | VS Code | npm | pnpm | Linux |
-| --- | --- | --- | --- | --- | --- |
-| <img src="https://skillicons.dev/icons?i=git" width="46" alt="Git" /><br/>Git | <img src="https://skillicons.dev/icons?i=github" width="46" alt="GitHub" /><br/>GitHub | <img src="https://skillicons.dev/icons?i=vscode" width="46" alt="VS Code" /><br/>VS Code | <img src="https://skillicons.dev/icons?i=npm" width="46" alt="npm" /><br/>npm | ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white) | <img src="https://skillicons.dev/icons?i=linux" width="46" alt="Linux" /><br/>Linux |
-
-| FastAPI | SQLAlchemy | PostgreSQL | React | Next.js | Tailwind CSS |
-| --- | --- | --- | --- | --- | --- |
-| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | <img src="https://skillicons.dev/icons?i=postgresql" width="46" alt="PostgreSQL" /><br/>PostgreSQL | <img src="https://skillicons.dev/icons?i=react" width="46" alt="React" /><br/>React | <img src="https://skillicons.dev/icons?i=nextjs" width="46" alt="Next.js" /><br/>Next.js | <img src="https://skillicons.dev/icons?i=tailwind" width="46" alt="Tailwind CSS" /><br/>Tailwind |
-
-| pandas | openpyxl | HTTPX | Axios | Uvicorn | Alembic |
-| --- | --- | --- | --- | --- | --- |
-| ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![openpyxl](https://img.shields.io/badge/openpyxl-1d6f42?style=for-the-badge&logo=microsoftexcel&logoColor=white) | ![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=for-the-badge) | ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) | ![Uvicorn](https://img.shields.io/badge/Uvicorn-059669?style=for-the-badge) | ![Alembic](https://img.shields.io/badge/Alembic-6b7280?style=for-the-badge) |
+| ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) | ![APScheduler](https://img.shields.io/badge/APScheduler-0f766e?style=for-the-badge) | ![Alembic](https://img.shields.io/badge/Alembic-6b7280?style=for-the-badge) | ![Lucide](https://img.shields.io/badge/Lucide_React-f97316?style=for-the-badge) | ![next-themes](https://img.shields.io/badge/next--themes-000000?style=for-the-badge) | ![Vercel Analytics](https://img.shields.io/badge/Vercel_Analytics-000000?style=for-the-badge&logo=vercel&logoColor=white) |
 
 ---
 
