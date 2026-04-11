@@ -5,9 +5,9 @@
   Software builder focused on trading infrastructure, automation systems, and operational tooling.
 </p>
 
-I build practical software for trading and business operations, including Telegram bots, MT4/MT5 tooling, internal dashboards, reporting pipelines, and data-driven workflow automation.
+I build software for trading and business operations across bots, dashboards, data pipelines, reporting systems, and MT4/MT5 workflow tooling.
 
-My work centers on reducing manual effort, improving operational visibility, and turning fragmented processes like client tracking, payments, reporting, and execution support into reliable systems.
+My focus is on turning manual, fragmented processes into reliable systems that improve visibility, speed, and operator efficiency.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=flat-square)
 ![Automation](https://img.shields.io/badge/AUTOMATION-ff6b35?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -91,75 +91,50 @@ These are the areas and tools I work with most often:
 
 ## Selected Work
 
-### Public Projects
+### Public Work
 
 #### Jagdamba Site
 
-Professional website built using React and Next.js for live brand presence and modern web delivery.
+Professional web presence built with React and Next.js.
 
 [![Live Site](https://img.shields.io/badge/LIVE_SITE-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site)
 [![Repository](https://img.shields.io/badge/REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir/jagdamba-site)
 
 ### Technical Work
 
-#### Trading and Operations Infrastructure
+#### Trading Infrastructure
 
-I build internal systems for trading operations, reporting, reconciliation, and business workflow automation across dashboards, bots, and supporting services.
+Internal trading operations software covering dashboards, reconciliation, reporting, payment visibility, and MT4/MT5 execution support.
 
-- MT4/MT5 data ingestion and trading workflow support
-- Role-based dashboards and operational interfaces
-- Payment, client, and reporting pipelines
-- Telegram-based admin and operator tooling
-- Execution support and monitoring flows
+#### Market Monitoring
 
-#### Real-Time Market Monitoring
+Real-time monitoring interfaces for spread tracking, premium analysis, charting, alert workflows, and operator-facing visibility.
 
-I work on real-time monitoring interfaces for price spreads, premium tracking, arbitrage visibility, and threshold-based alerting.
+#### Automation Systems
 
-- Live dashboards and charting
-- Event-driven alert workflows
-- Market data visualization
-- Operator-focused monitoring interfaces
-
-#### Automation Bots and Integrations
-
-I build automation bots that connect messaging platforms, trading workflows, and reporting systems.
-
-- Telegram and WhatsApp bot flows
-- Signal parsing and action routing
-- Risk-aware workflow automation
-- Deployment-ready operator tooling
-
-#### Trading Tooling and Execution Support
-
-I develop trading-side tooling for chart workflows, execution support, diagnostics, and operational guardrails.
-
-- Indicator and scanner-based workflow support
-- Symbol handling and broker compatibility logic
-- Runtime diagnostics and reporting
-- Risk controls and execution helpers
-
-#### Data Extraction and Reporting Automation
-
-I build data extraction scripts and reporting utilities for commission workflows, exports, reconciliation, and long-running job handling.
-
-- Session-authenticated scraping and structured exports
-- Resume and retry-safe automation flows
-- CSV and Excel reporting outputs
-- Progress tracking and operational visibility
+Bots, data pipelines, reporting utilities, and integration tooling for messaging, structured exports, execution support, and long-running operational jobs.
 
 ---
 
-## GitHub Snapshot
+## GitHub Stats 📈
 
-[![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
-[![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
-[![Stars](https://img.shields.io/badge/Stars-Viewed_on_GitHub-f59e0b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=stars)
-[![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
+| Profile | Repositories | Activity | Live Project |
+| --- | --- | --- | --- |
+| [![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir) | [![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories) | [![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir) | [![jagdamba.site](https://img.shields.io/badge/jagdamba.site-Live-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site) |
 
-- Public profile and contribution activity are available directly on GitHub
-- Featured public repository: `jagdamba-site`
-- Active work spans trading systems, dashboards, bots, reporting, and automation
+| Core Stack | Work Type | Public Signal | Focus |
+| --- | --- | --- | --- |
+| Python, TypeScript, JavaScript, SQL, MQL4 | Bots, dashboards, data pipelines, reporting | Public repos and contribution activity on GitHub | Trading systems, ops tooling, automation |
+
+### Most Used Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MQL4](https://img.shields.io/badge/MQL4-2563eb?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 ---
 
