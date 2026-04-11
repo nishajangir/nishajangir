@@ -37,6 +37,8 @@ These are the areas and tools I work with most often:
 ![Reporting Pipelines](https://img.shields.io/badge/REPORTING_PIPELINES-16a34a?style=for-the-badge)
 ![Client Tracking](https://img.shields.io/badge/CLIENT_TRACKING-dc2626?style=for-the-badge)
 ![Payment Workflows](https://img.shields.io/badge/PAYMENT_WORKFLOWS-7c2d12?style=for-the-badge)
+![Trading Systems](https://img.shields.io/badge/TRADING_SYSTEMS-4f46e5?style=for-the-badge)
+![Bot Operations](https://img.shields.io/badge/BOT_OPERATIONS-0ea5e9?style=for-the-badge)
 
 ### Focus Areas
 
@@ -46,17 +48,39 @@ These are the areas and tools I work with most often:
 ![Data Cleanup](https://img.shields.io/badge/DATA_CLEANUP-9333ea?style=flat-square)
 ![Reconciliation](https://img.shields.io/badge/RECONCILIATION-0891b2?style=flat-square)
 ![Trading Backoffice](https://img.shields.io/badge/TRADING_BACKOFFICE-4f46e5?style=flat-square)
+![Copy Trading](https://img.shields.io/badge/COPY_TRADING-7c3aed?style=flat-square)
+![MT4 / MT5 Tooling](https://img.shields.io/badge/MT4_/_MT5_TOOLING-2563eb?style=flat-square)
+![Dashboards](https://img.shields.io/badge/DASHBOARDS-0f766e?style=flat-square)
+![Scrapers](https://img.shields.io/badge/SCRAPERS-f97316?style=flat-square)
 
-### Languages & Tools
+### Languages
 
-![Skills](https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,git,github,vscode,sqlite,postgresql,tailwind)
+| Python | TypeScript | JavaScript | SQL | MQL4 / MT4 |
+| --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=python" width="46" alt="Python" /><br/>Python | <img src="https://skillicons.dev/icons?i=typescript" width="46" alt="TypeScript" /><br/>TypeScript | <img src="https://skillicons.dev/icons?i=javascript" width="46" alt="JavaScript" /><br/>JavaScript | <img src="https://skillicons.dev/icons?i=postgresql" width="46" alt="SQL" /><br/>SQL | ![MQL4 / MT4](https://img.shields.io/badge/MQL4_/_MT4-2563eb?style=for-the-badge) |
+
+### Frontend
+
+| React | Next.js | Tailwind CSS | TypeScript | Lightweight Charts |
+| --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=react" width="46" alt="React" /><br/>React | <img src="https://skillicons.dev/icons?i=nextjs" width="46" alt="Next.js" /><br/>Next.js | <img src="https://skillicons.dev/icons?i=tailwind" width="46" alt="Tailwind CSS" /><br/>Tailwind | <img src="https://skillicons.dev/icons?i=typescript" width="46" alt="TypeScript" /><br/>TypeScript | ![Lightweight Charts](https://img.shields.io/badge/Lightweight_Charts-0f172a?style=for-the-badge) |
+
+### Backend
+
+| FastAPI | Node.js | SQLAlchemy | HTTPX | Telegram Bot APIs |
+| --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=fastapi" width="46" alt="FastAPI" /><br/>FastAPI | <img src="https://skillicons.dev/icons?i=nodejs" width="46" alt="Node.js" /><br/>Node.js | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=for-the-badge) | ![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) |
+
+### Data & Storage
+
+| PostgreSQL | SQLite | CSV / Excel | JSON | pandas / openpyxl |
+| --- | --- | --- | --- | --- |
+| <img src="https://skillicons.dev/icons?i=postgresql" width="46" alt="PostgreSQL" /><br/>PostgreSQL | <img src="https://skillicons.dev/icons?i=sqlite" width="46" alt="SQLite" /><br/>SQLite | ![CSV / Excel](https://img.shields.io/badge/CSV_/_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) | ![JSON](https://img.shields.io/badge/JSON-111827?style=for-the-badge&logo=json&logoColor=white) | ![pandas / openpyxl](https://img.shields.io/badge/pandas_/_openpyxl-150458?style=for-the-badge&logo=pandas&logoColor=white) |
+
+### Tools
 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![openpyxl](https://img.shields.io/badge/openpyxl-1d6f42?style=flat-square&logo=microsoftexcel&logoColor=white)
-![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-111827?style=flat-square&logo=json&logoColor=white)
-![CSV](https://img.shields.io/badge/CSV-16a34a?style=flat-square)
-![Excel Reports](https://img.shields.io/badge/Excel_Reports-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
@@ -67,8 +91,11 @@ These are the areas and tools I work with most often:
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=flat-square)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 ![Lightweight Charts](https://img.shields.io/badge/Lightweight_Charts-0f172a?style=flat-square)
-![MQL4 / MT4](https://img.shields.io/badge/MQL4_/_MT4-2563eb?style=flat-square)
 
 ---
 
