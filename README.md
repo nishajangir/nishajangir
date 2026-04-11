@@ -14,7 +14,7 @@ My focus is on turning manual, fragmented processes into reliable systems that i
 ![Telegram](https://img.shields.io/badge/TELEGRAM-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 ![Data](https://img.shields.io/badge/DATA-0ea5e9?style=for-the-badge&logo=pandas&logoColor=white)
 ![Trading](https://img.shields.io/badge/TRADING-7c3aed?style=for-the-badge&logo=tradingview&logoColor=white)
-![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=VIEWS&color=1f6feb&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=for-the-badge)
 
 ## Snapshot
 
