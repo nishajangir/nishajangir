@@ -117,36 +117,31 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ## GitHub Stats 📈
 
-| Profile | Repositories | Activity | Live Project |
-| --- | --- | --- | --- |
-| [![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir) | [![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories) | [![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir) | [![jagdamba.site](https://img.shields.io/badge/jagdamba.site-Live-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site) |
-
-| Core Stack | Work Type | Public Signal | Focus |
-| --- | --- | --- | --- |
-| Python, TypeScript, JavaScript, SQL, MQL4 | Bots, dashboards, data pipelines, reporting | Public repos and contribution activity on GitHub | Trading systems, ops tooling, automation |
-
-### Most Used Languages
-
-<img src=".github-profile-assets/language-bar.svg" alt="Most used languages bar" width="780" />
+Quick view of my public work, active stack, and contribution footprint.
 
 <table>
   <tr>
-    <td>🔵 TypeScript <strong>42.83%</strong></td>
-    <td>🟠 HTML <strong>2.23%</strong></td>
-  </tr>
-  <tr>
-    <td>🟡 Python <strong>33.90%</strong></td>
-    <td>🟤 Shell <strong>0.53%</strong></td>
-  </tr>
-  <tr>
-    <td>🟣 MQL4 <strong>19.64%</strong></td>
-    <td>🔷 CSS <strong>0.45%</strong></td>
-  </tr>
-  <tr>
-    <td>🔴 JavaScript <strong>0.43%</strong></td>
-    <td></td>
+    <td align="center"><strong>Profile</strong><br/><br/><a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/PROFILE-NISHAJANGIR-1f2328?style=for-the-badge&logo=github&logoColor=white" alt="Profile" /></a></td>
+    <td align="center"><strong>Repositories</strong><br/><br/><a href="https://github.com/nishajangir?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-VIEW_WORK-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a></td>
+    <td align="center"><strong>Activity</strong><br/><br/><a href="https://github.com/nishajangir"><img src="https://img.shields.io/badge/ACTIVITY-CONTRIBUTIONS-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Activity" /></a></td>
+    <td align="center"><strong>Live Project</strong><br/><br/><a href="https://www.jagdamba.site"><img src="https://img.shields.io/badge/JAGDAMBA.SITE-LIVE-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Project" /></a></td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td><strong>Core Stack</strong><br/>Python, TypeScript, JavaScript, SQL, MQL4</td>
+    <td><strong>Work Type</strong><br/>Bots, dashboards, data pipelines, reporting</td>
+  </tr>
+  <tr>
+    <td><strong>Public Signal</strong><br/>Public repositories and contribution activity on GitHub</td>
+    <td><strong>Focus</strong><br/>Trading systems, ops tooling, automation</td>
+  </tr>
+</table>
+
+### Most Used Languages
+
+<img src=".github-profile-assets/language-panel.svg" alt="Most used languages" width="780" />
 
 ### Contribution Activity
 
