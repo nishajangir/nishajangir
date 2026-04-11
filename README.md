@@ -118,23 +118,13 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ## GitHub Stats 📈
 
-| Profile | Repositories | Activity | Live Project |
-| --- | --- | --- | --- |
-| [![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir) | [![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories) | [![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir) | [![jagdamba.site](https://img.shields.io/badge/jagdamba.site-Live-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site) |
-
-| Core Stack | Work Type | Public Signal | Focus |
-| --- | --- | --- | --- |
-| Python, TypeScript, JavaScript, SQL, MQL4 | Bots, dashboards, data pipelines, reporting | Public repos and contribution activity on GitHub | Trading systems, ops tooling, automation |
+| GitHub Stats | Streak |
+| --- | --- |
+| [![Nisha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nishajangir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&rank_icon=github&include_all_commits=true)](https://github.com/nishajangir) | [![Nisha's GitHub Streak](https://streak-stats.demolab.com?user=nishajangir&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e)](https://github.com/nishajangir) |
 
 ### Most Used Languages
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MQL4](https://img.shields.io/badge/MQL4-2563eb?style=flat-square)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nishajangir&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)](https://github.com/nishajangir?tab=repositories)
 
 ### Contribution Activity
 
