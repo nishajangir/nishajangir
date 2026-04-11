@@ -49,7 +49,7 @@ These are the areas and tools I work with most often:
 
 ### Languages & Tools
 
-![Skills](https://skillicons.dev/icons?i=python,git,github,vscode,sqlite)
+![Skills](https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,git,github,vscode,sqlite,postgresql,tailwind)
 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![openpyxl](https://img.shields.io/badge/openpyxl-1d6f42?style=flat-square&logo=microsoftexcel&logoColor=white)
@@ -57,6 +57,18 @@ These are the areas and tools I work with most often:
 ![JSON](https://img.shields.io/badge/JSON-111827?style=flat-square&logo=json&logoColor=white)
 ![CSV](https://img.shields.io/badge/CSV-16a34a?style=flat-square)
 ![Excel Reports](https://img.shields.io/badge/Excel_Reports-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=flat-square)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
+![Lightweight Charts](https://img.shields.io/badge/Lightweight_Charts-0f172a?style=flat-square)
+![MQL4 / MT4](https://img.shields.io/badge/MQL4_/_MT4-2563eb?style=flat-square)
 
 ---
 
