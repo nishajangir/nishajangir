@@ -42,16 +42,16 @@ These are the areas and tools I work with most often:
 
 ### Focus Areas
 
-![Python Automation](https://img.shields.io/badge/PYTHON_AUTOMATION-1d4ed8?style=flat-square&logo=python&logoColor=white)
-![Telegram Bots](https://img.shields.io/badge/TELEGRAM_BOTS-0ea5e9?style=flat-square&logo=telegram&logoColor=white)
-![CSV and Excel](https://img.shields.io/badge/CSV_%26_EXCEL-c2410c?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Data Cleanup](https://img.shields.io/badge/DATA_CLEANUP-9333ea?style=flat-square)
-![Reconciliation](https://img.shields.io/badge/RECONCILIATION-0891b2?style=flat-square)
-![Trading Backoffice](https://img.shields.io/badge/TRADING_BACKOFFICE-4f46e5?style=flat-square)
-![Copy Trading](https://img.shields.io/badge/COPY_TRADING-7c3aed?style=flat-square)
-![MT4 / MT5 Tooling](https://img.shields.io/badge/MT4_/_MT5_TOOLING-2563eb?style=flat-square)
-![Dashboards](https://img.shields.io/badge/DASHBOARDS-0f766e?style=flat-square)
-![Scrapers](https://img.shields.io/badge/SCRAPERS-f97316?style=flat-square)
+![Python Automation](https://img.shields.io/badge/PYTHON_AUTOMATION-1d4ed8?style=for-the-badge&logo=python&logoColor=white)
+![Telegram Bots](https://img.shields.io/badge/TELEGRAM_BOTS-0ea5e9?style=for-the-badge&logo=telegram&logoColor=white)
+![CSV and Excel](https://img.shields.io/badge/CSV_%26_EXCEL-c2410c?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Data Cleanup](https://img.shields.io/badge/DATA_CLEANUP-9333ea?style=for-the-badge)
+![Reconciliation](https://img.shields.io/badge/RECONCILIATION-0891b2?style=for-the-badge)
+![Trading Backoffice](https://img.shields.io/badge/TRADING_BACKOFFICE-4f46e5?style=for-the-badge)
+![Copy Trading](https://img.shields.io/badge/COPY_TRADING-7c3aed?style=for-the-badge)
+![MT4 / MT5 Tooling](https://img.shields.io/badge/MT4_/_MT5_TOOLING-2563eb?style=for-the-badge)
+![Dashboards](https://img.shields.io/badge/DASHBOARDS-0f766e?style=for-the-badge)
+![Scrapers](https://img.shields.io/badge/SCRAPERS-f97316?style=for-the-badge)
 
 ### Languages
 
