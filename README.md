@@ -2,12 +2,12 @@
 
 <p>
   <strong>Nisha Jangir</strong><br/>
-  Founder-minded builder focused on automation, ops systems, and practical software.
+  Software builder focused on trading infrastructure, automation systems, and operational tooling.
 </p>
 
-I work on automation, structured data pipelines, client and payment tracking, Excel reporting, and business-facing software that supports operational workflows.
+I build practical software for trading and business operations, including Telegram bots, MT4/MT5 tooling, internal dashboards, reporting pipelines, and data-driven workflow automation.
 
-My focus is on shipping practical tools that remove repetitive coordination work, improve visibility, and make daily operations easier to manage.
+My work centers on reducing manual effort, improving operational visibility, and turning fragmented processes like client tracking, payments, reporting, and execution support into reliable systems.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=flat-square)
 ![Automation](https://img.shields.io/badge/AUTOMATION-ff6b35?style=for-the-badge&logo=githubactions&logoColor=white)
