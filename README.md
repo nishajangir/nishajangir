@@ -139,10 +139,6 @@ These are the areas and tools I work with most often:
 | --- | --- | --- | --- | --- | --- |
 | ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![openpyxl](https://img.shields.io/badge/openpyxl-1d6f42?style=for-the-badge&logo=microsoftexcel&logoColor=white) | ![HTTPX](https://img.shields.io/badge/HTTPX-5A67D8?style=for-the-badge) | ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) | ![Uvicorn](https://img.shields.io/badge/Uvicorn-059669?style=for-the-badge) | ![Alembic](https://img.shields.io/badge/Alembic-6b7280?style=for-the-badge) |
 
-| React Hook Form | Radix UI | Lucide React | APScheduler | asyncpg | aiosqlite |
-| --- | --- | --- | --- | --- | --- |
-| ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge) | ![Radix UI](https://img.shields.io/badge/Radix_UI-111827?style=for-the-badge) | ![Lucide](https://img.shields.io/badge/Lucide_React-f97316?style=for-the-badge) | ![APScheduler](https://img.shields.io/badge/APScheduler-0f766e?style=for-the-badge) | ![asyncpg](https://img.shields.io/badge/asyncpg-334155?style=for-the-badge) | ![aiosqlite](https://img.shields.io/badge/aiosqlite-2563eb?style=for-the-badge) |
-
 ---
 
 ## Selected Work
