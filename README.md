@@ -1,7 +1,6 @@
 <h1>Hi There, I'm Nisha 👋</h1>
 
 <p>
-  <strong></strong><br/>
   Software builder focused on trading infrastructure, automation systems, and operational tooling.
 </p>
 
