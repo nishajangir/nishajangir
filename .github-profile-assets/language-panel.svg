@@ -1,46 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="360" viewBox="0 0 780 360" role="img" aria-label="Most used languages graph">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="248" viewBox="0 0 780 248" role="img" aria-label="Most used languages">
   <style>
-    .axis { font: 600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #6b7280; }
-    .label { font: 700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #374151; }
-    .value { font: 700 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #111827; }
-    .grid { stroke: #dbe3ee; stroke-width: 1; stroke-dasharray: 3 4; }
-    .axis-line { stroke: #cbd5e1; stroke-width: 1.5; }
+    .card { fill: #f8fafc; stroke: #dbe3ee; stroke-width: 1; }
+    .track { fill: #e8eef6; }
+    .label { font: 600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #334155; }
+    .value { font: 700 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #0f172a; }
+    .muted { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #64748b; }
   </style>
-  <line x1="62" y1="32" x2="62" y2="226" class="axis-line"/>
-  <line x1="62" y1="226" x2="760" y2="226" class="axis-line"/>
 
-  <line x1="62" y1="54" x2="760" y2="54" class="grid"/>
-  <line x1="62" y1="98" x2="760" y2="98" class="grid"/>
-  <line x1="62" y1="142" x2="760" y2="142" class="grid"/>
-  <line x1="62" y1="186" x2="760" y2="186" class="grid"/>
+  <rect x="1" y="1" width="778" height="246" rx="18" class="card"/>
+  <text x="28" y="36" class="value">Most Used Languages</text>
+  <text x="28" y="60" class="muted">Tracked source mix across current local project repos.</text>
 
-  <text x="22" y="230" class="axis">0%</text>
-  <text x="12" y="190" class="axis">10%</text>
-  <text x="12" y="146" class="axis">20%</text>
-  <text x="12" y="102" class="axis">30%</text>
-  <text x="12" y="58" class="axis">40%</text>
+  <defs>
+    <clipPath id="lang-bar">
+      <rect x="28" y="78" width="724" height="22" rx="11" ry="11"/>
+    </clipPath>
+  </defs>
 
-  <rect x="102" y="38" width="42" height="188" rx="10" fill="#3178C6"/>
-  <rect x="194" y="76" width="42" height="150" rx="10" fill="#FFD43B"/>
-  <rect x="286" y="140" width="42" height="86" rx="10" fill="#A855F7"/>
-  <rect x="378" y="216" width="42" height="10" rx="4" fill="#F97316"/>
-  <rect x="470" y="224" width="42" height="2.5" rx="1.25" fill="#8B5E3C"/>
-  <rect x="562" y="224" width="42" height="2.1" rx="1.05" fill="#1572B6"/>
-  <rect x="654" y="224" width="42" height="2.0" rx="1" fill="#F7DF1E"/>
+  <rect x="28" y="78" width="724" height="22" rx="11" class="track"/>
+  <g clip-path="url(#lang-bar)">
+    <rect x="28" y="78" width="310.09" height="22" fill="#3178C6"/>
+    <rect x="338.09" y="78" width="245.44" height="22" fill="#FFD43B"/>
+    <rect x="583.53" y="78" width="142.15" height="22" fill="#A855F7"/>
+    <rect x="725.68" y="78" width="16.15" height="22" fill="#F97316"/>
+    <rect x="741.83" y="78" width="3.84" height="22" fill="#8B5E3C"/>
+    <rect x="745.67" y="78" width="3.26" height="22" fill="#1572B6"/>
+    <rect x="748.93" y="78" width="3.11" height="22" fill="#F7DF1E"/>
+  </g>
 
-  <text x="123" y="30" text-anchor="middle" class="value">42.83%</text>
-  <text x="215" y="68" text-anchor="middle" class="value">33.90%</text>
-  <text x="307" y="132" text-anchor="middle" class="value">19.64%</text>
-  <text x="399" y="208" text-anchor="middle" class="value">2.23%</text>
-  <text x="491" y="216" text-anchor="middle" class="value">0.53%</text>
-  <text x="583" y="216" text-anchor="middle" class="value">0.45%</text>
-  <text x="675" y="216" text-anchor="middle" class="value">0.43%</text>
+  <circle cx="40" cy="136" r="8" fill="#3178C6"/>
+  <text x="58" y="142" class="label">TypeScript</text>
+  <text x="188" y="142" class="value">42.83%</text>
 
-  <text x="123" y="254" text-anchor="middle" class="label">TypeScript</text>
-  <text x="215" y="254" text-anchor="middle" class="label">Python</text>
-  <text x="307" y="254" text-anchor="middle" class="label">MQL4</text>
-  <text x="399" y="254" text-anchor="middle" class="label">HTML</text>
-  <text x="491" y="254" text-anchor="middle" class="label">Shell</text>
-  <text x="583" y="254" text-anchor="middle" class="label">CSS</text>
-  <text x="675" y="254" text-anchor="middle" class="label">JavaScript</text>
+  <circle cx="400" cy="136" r="8" fill="#F97316"/>
+  <text x="418" y="142" class="label">HTML</text>
+  <text x="490" y="142" class="value">2.23%</text>
+
+  <circle cx="40" cy="178" r="8" fill="#FFD43B"/>
+  <text x="58" y="184" class="label">Python</text>
+  <text x="160" y="184" class="value">33.90%</text>
+
+  <circle cx="400" cy="178" r="8" fill="#8B5E3C"/>
+  <text x="418" y="184" class="label">Shell</text>
+  <text x="492" y="184" class="value">0.53%</text>
+
+  <circle cx="40" cy="220" r="8" fill="#A855F7"/>
+  <text x="58" y="226" class="label">MQL4</text>
+  <text x="146" y="226" class="value">19.64%</text>
+
+  <circle cx="400" cy="220" r="8" fill="#1572B6"/>
+  <text x="418" y="226" class="label">CSS</text>
+  <text x="482" y="226" class="value">0.45%</text>
+
+  <circle cx="590" cy="220" r="8" fill="#F7DF1E"/>
+  <text x="608" y="226" class="label">JavaScript</text>
+  <text x="722" y="226" text-anchor="end" class="value">0.43%</text>
 </svg>
