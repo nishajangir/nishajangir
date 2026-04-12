@@ -123,7 +123,7 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ### Contribution Activity
 
-[![Nisha's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=0d1117&color=58a6ff&line=3fb950&point=f59e0b&area=true&hide_border=true)](https://github.com/nishajangir)
+[![Nisha's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=f8fafc&color=1f2937&line=16a34a&point=f59e0b&area=true&hide_border=true)](https://github.com/nishajangir)
 
 ---
 
