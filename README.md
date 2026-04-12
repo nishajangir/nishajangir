@@ -128,9 +128,10 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 <sub>Approx. based on tracked source files across current local project repos.</sub>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-42.83%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-33.90%25-FFD43B?style=flat-square&logo=python&logoColor=111827)
-![MQL4](https://img.shields.io/badge/MQL4-19.64%25-A855F7?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-42.83%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-33.90%25-FFD43B?style=for-the-badge&logo=python&logoColor=111827)
+![MQL4](https://img.shields.io/badge/MQL4-19.64%25-A855F7?style=for-the-badge)
+
 ![HTML](https://img.shields.io/badge/HTML-2.23%25-F97316?style=flat-square&logo=html5&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-0.53%25-8B5E3C?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-0.45%25-1572B6?style=flat-square&logo=css3&logoColor=white)
