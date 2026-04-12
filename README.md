@@ -113,10 +113,10 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 <sub>Public profile, repositories, live work, and active stack.</sub>
 
-[![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nishajangir)
-[![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=flat-square&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
-[![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=flat-square&logo=github&logoColor=white)](https://github.com/nishajangir)
-[![Live Project](https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=flat-square&logo=vercel&logoColor=white)](https://www.jagdamba.site)
+[![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
+[![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
+[![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
+[![Live Project](https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site)
 
 | Area | Details |
 | --- | --- |
