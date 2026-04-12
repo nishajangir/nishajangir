@@ -5,9 +5,9 @@
   Software builder focused on trading infrastructure, automation systems, and operational tooling.
 </p>
 
-I build software for trading and business operations across bots, dashboards, data pipelines, reporting systems, and MT4/MT5 workflow tooling.
+I build software for **trading and business operations** across **bots, dashboards, data pipelines, reporting systems, and MT4/MT5 workflow tooling**.
 
-My focus is on turning manual, fragmented processes into reliable systems that improve visibility, speed, and operator efficiency.
+My focus is on turning **manual, fragmented processes** into reliable systems that improve **visibility, speed, and operator efficiency**.
 
 ![Automation](https://img.shields.io/badge/AUTOMATION-ff6b35?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -125,11 +125,9 @@ Public profile, repositories, live work, and active stack.
 [![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
 [![Live Project](https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site)
 
-| Area | Details |
-| --- | --- |
-| Core Stack | Python, TypeScript, JavaScript, SQL, MQL4 |
-| Focus | Trading systems, bots, dashboards, data pipelines, reporting |
-| Public Signal | Active public repositories and contribution activity |
+**Core Stack:** Python, TypeScript, JavaScript, SQL, MQL4  
+**Focus:** Trading infrastructure, automation systems, dashboards, data pipelines, and reporting workflows  
+**Public Signal:** Active public repositories, shipped work, and ongoing contribution activity
 
 ### Most Used Languages
 
