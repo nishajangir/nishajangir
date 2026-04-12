@@ -132,10 +132,10 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 ![Python](https://img.shields.io/badge/Python-33.90%25-FFD43B?style=for-the-badge&logo=python&logoColor=111827)
 ![MQL4](https://img.shields.io/badge/MQL4-19.64%25-A855F7?style=for-the-badge)
 
-![HTML](https://img.shields.io/badge/HTML-2.23%25-F97316?style=flat-square&logo=html5&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-0.53%25-8B5E3C?style=flat-square)
-![CSS](https://img.shields.io/badge/CSS-0.45%25-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-0.43%25-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
+![HTML](https://img.shields.io/badge/HTML-2.23%25-F97316?style=for-the-badge&logo=html5&logoColor=white)
+![Shell](https://img.shields.io/badge/SHELL-0.53%25-8B5E3C?style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS-0.45%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-0.43%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)
 
 ---
 
