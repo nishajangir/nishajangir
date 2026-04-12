@@ -25,13 +25,13 @@
   <text x="12" y="162" class="axis">30%</text>
   <text x="12" y="118" class="axis">40%</text>
 
-  <rect x="94" y="98" width="58" height="188" rx="12" fill="#3178C6"/>
-  <rect x="186" y="136" width="58" height="150" rx="12" fill="#FFD43B"/>
-  <rect x="278" y="200" width="58" height="86" rx="12" fill="#A855F7"/>
-  <rect x="370" y="276" width="58" height="10" rx="5" fill="#F97316"/>
-  <rect x="462" y="284" width="58" height="2.5" rx="1.25" fill="#8B5E3C"/>
-  <rect x="554" y="284" width="58" height="2.1" rx="1.05" fill="#1572B6"/>
-  <rect x="646" y="284" width="58" height="2.0" rx="1" fill="#F7DF1E"/>
+  <rect x="102" y="98" width="42" height="188" rx="10" fill="#3178C6"/>
+  <rect x="194" y="136" width="42" height="150" rx="10" fill="#FFD43B"/>
+  <rect x="286" y="200" width="42" height="86" rx="10" fill="#A855F7"/>
+  <rect x="378" y="276" width="42" height="10" rx="4" fill="#F97316"/>
+  <rect x="470" y="284" width="42" height="2.5" rx="1.25" fill="#8B5E3C"/>
+  <rect x="562" y="284" width="42" height="2.1" rx="1.05" fill="#1572B6"/>
+  <rect x="654" y="284" width="42" height="2.0" rx="1" fill="#F7DF1E"/>
 
   <text x="123" y="90" text-anchor="middle" class="value">42.83%</text>
   <text x="215" y="128" text-anchor="middle" class="value">33.90%</text>
