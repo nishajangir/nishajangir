@@ -111,7 +111,7 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ## GitHub Stats 📈
 
-<sub>Public profile, repositories, live work, and active stack.</sub>
+Public profile, repositories, live work, and active stack.
 
 [![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
 [![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
