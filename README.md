@@ -2,8 +2,7 @@
 
 <p>
   <strong>Nisha Jangir</strong><br/>
-  Software builder focused on trading infrastructure, automation systems, and operational tooling.<br/>
-  Dubai, UAE • GST / Dubai Time
+  Software builder focused on trading infrastructure, automation systems, and operational tooling.
 </p>
 
 I build software for trading and business operations across bots, dashboards, data pipelines, reporting systems, and MT4/MT5 workflow tooling.
@@ -17,6 +16,14 @@ My focus is on turning manual, fragmented processes into reliable systems that i
 ![Ops](https://img.shields.io/badge/OPS-059669?style=for-the-badge)
 ![Trading](https://img.shields.io/badge/TRADING-7c3aed?style=for-the-badge&logo=tradingview&logoColor=white)
 ![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=for-the-badge)
+
+## Snapshot
+
+- 📍 Dubai, UAE
+- 🕒 GST / Dubai Time
+- 💼 Python Automation
+- 📊 Reporting Systems
+- 🤖 Telegram Bots
 
 ## Skill Set
 
