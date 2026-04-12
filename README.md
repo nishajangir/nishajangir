@@ -130,7 +130,7 @@ Public profile, repositories, live work, and active stack.
 
 ### Most Used Languages
 
-<sub>Approx. based on tracked source files across current local project repos.</sub>
+Approx. based on tracked source files across current local project repos.
 
 <img src=".github-profile-assets/language-panel.svg" alt="Most used languages" width="780" />
 
