@@ -111,19 +111,30 @@ Bots, data pipelines, reporting utilities, and integration tooling for messaging
 
 ## GitHub Stats 📈
 
-<img src=".github-profile-assets/stats-overview.svg" alt="GitHub stats overview" width="780" />
+<sub>Public profile, repositories, live work, and active stack.</sub>
 
-<sub><a href="https://github.com/nishajangir">Profile</a> • <a href="https://github.com/nishajangir?tab=repositories">Repositories</a> • <a href="https://github.com/nishajangir">Activity</a> • <a href="https://www.jagdamba.site">Live Project</a></sub>
+[![Profile](https://img.shields.io/badge/Profile-nishajangir-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nishajangir)
+[![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=flat-square&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
+[![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=flat-square&logo=github&logoColor=white)](https://github.com/nishajangir)
+[![Live Project](https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=flat-square&logo=vercel&logoColor=white)](https://www.jagdamba.site)
+
+| Area | Details |
+| --- | --- |
+| Core Stack | Python, TypeScript, JavaScript, SQL, MQL4 |
+| Focus | Trading systems, bots, dashboards, data pipelines, reporting |
+| Public Signal | Active public repositories and contribution activity |
 
 ### Most Used Languages
 
 <sub>Approx. based on tracked source files across current local project repos.</sub>
 
-<img src=".github-profile-assets/language-panel.svg" alt="Most used languages" width="780" />
-
-### Contribution Activity
-
-[![Nisha's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=f8fafc&color=1f2937&line=16a34a&point=f59e0b&area=true&hide_border=true)](https://github.com/nishajangir)
+![TypeScript](https://img.shields.io/badge/TypeScript-42.83%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-33.90%25-FFD43B?style=flat-square&logo=python&logoColor=111827)
+![MQL4](https://img.shields.io/badge/MQL4-19.64%25-A855F7?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-2.23%25-F97316?style=flat-square&logo=html5&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-0.53%25-8B5E3C?style=flat-square)
+![CSS](https://img.shields.io/badge/CSS-0.45%25-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-0.43%25-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
 
 ---
 
