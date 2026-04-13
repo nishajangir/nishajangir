@@ -123,6 +123,7 @@ Public profile, repositories, live work, and active stack.
 [![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
 [![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
 [![Live Project](https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site)
+[![WakaTime](https://wakatime.com/badge/user/5bcbc43b-adfb-4ea9-881e-50ab8bd6b247.svg)](https://wakatime.com/@5bcbc43b-adfb-4ea9-881e-50ab8bd6b247)
 
 **Core Stack:** Python, TypeScript, JavaScript, SQL, MQL4  
 **Focus:** Trading infrastructure, automation systems, dashboards, data pipelines, and reporting workflows  
