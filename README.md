@@ -136,7 +136,20 @@ Approx. based on tracked source files across current local project repos.
 
 ### Contribution Activity
 
-[![Nisha's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=f8fafc&color=1f2937&line=16a34a&point=f59e0b&area=true&hide_border=true)](https://github.com/nishajangir)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=0d1117&color=e6edf3&title_color=e6edf3&line=22c55e&point=f59e0b&area=true&area_color=22c55e&hide_border=true&grid=false"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=f8fafc&color=1f2937&title_color=0f172a&line=16a34a&point=f59e0b&area=true&area_color=bbf7d0&hide_border=true&grid=false"
+  />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=f8fafc&color=1f2937&title_color=0f172a&line=16a34a&point=f59e0b&area=true&area_color=bbf7d0&hide_border=true&grid=false"
+    alt="Nisha's GitHub activity graph"
+  />
+</picture>
 
 ---
 
