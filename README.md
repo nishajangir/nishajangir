@@ -132,7 +132,11 @@ Public profile, repositories, live work, and active stack.
 
 Approx. based on tracked source files across current local project repos.
 
-<img src=".github-profile-assets/language-panel.svg" alt="Most used languages" width="780" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github-profile-assets/language-panel-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset=".github-profile-assets/language-panel.svg" />
+  <img src=".github-profile-assets/language-panel.svg" alt="Most used languages" width="780" />
+</picture>
 
 ### Contribution Activity
 
