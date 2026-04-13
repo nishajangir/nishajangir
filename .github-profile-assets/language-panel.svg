@@ -1,10 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="780" height="248" viewBox="0 0 780 248" role="img" aria-label="Most used languages">
   <style>
-    .card { fill: #f8fafc; stroke: #dbe3ee; stroke-width: 1; }
-    .track { fill: #e8eef6; }
-    .label { font: 600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #334155; }
-    .value { font: 700 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #0f172a; }
-    .muted { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: #64748b; }
+    :root {
+      --card-fill: #f8fafc;
+      --card-stroke: #dbe3ee;
+      --track-fill: #e8eef6;
+      --label-fill: #334155;
+      --value-fill: #0f172a;
+      --muted-fill: #64748b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --card-fill: #161b22;
+        --card-stroke: #30363d;
+        --track-fill: #0f1720;
+        --label-fill: #c9d1d9;
+        --value-fill: #e6edf3;
+        --muted-fill: #8b949e;
+      }
+    }
+    .card { fill: var(--card-fill); stroke: var(--card-stroke); stroke-width: 1; }
+    .track { fill: var(--track-fill); }
+    .label { font: 600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: var(--label-fill); }
+    .value { font: 700 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: var(--value-fill); }
+    .muted { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill: var(--muted-fill); }
   </style>
 
   <rect x="1" y="1" width="778" height="246" rx="18" class="card"/>

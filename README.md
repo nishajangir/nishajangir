@@ -139,14 +139,14 @@ Approx. based on tracked source files across current local project repos.
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&theme=react-dark&hide_border=true&grid=false&area=true&line=22c55e&point=f59e0b&custom_title=Contribution%20Activity"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=0d1117&color=67e8f9&title_color=67e8f9&line=22c55e&point=f59e0b&area=true&hide_border=true"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&theme=github-compact&hide_border=true&grid=false&area=true&line=16a34a&point=f59e0b&custom_title=Contribution%20Activity"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=f8fafc&color=1f2937&title_color=0f172a&line=16a34a&point=f59e0b&area=true&hide_border=true"
   />
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&theme=github-compact&hide_border=true&grid=false&area=true&line=16a34a&point=f59e0b&custom_title=Contribution%20Activity"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=nishajangir&bg_color=f8fafc&color=1f2937&title_color=0f172a&line=16a34a&point=f59e0b&area=true&hide_border=true"
     alt="Nisha's GitHub activity graph"
   />
 </picture>
