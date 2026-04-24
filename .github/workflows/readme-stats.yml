@@ -64,6 +64,20 @@ jobs:
           "https://github-readme-stats-fast.vercel.app/api/wakatime?username=nishajangir&range=all_time&layout=compact&langs_count=10&hide_border=true&bg_color=00000000&title_color=0F172A&icon_color=16A34A&text_color=1F2937&custom_title=Time%20by%20Language"
           -o profile/wakatime-light.svg
 
+      - name: Remove card background boxes
+        run: |
+          for file in \
+            profile/stats-dark.svg \
+            profile/stats-light.svg \
+            profile/top-langs-dark.svg \
+            profile/top-langs-light.svg \
+            profile/wakatime-dark.svg \
+            profile/wakatime-light.svg
+          do
+            [ -f "$file" ] || continue
+            perl -0pi -e 's{<rect\b[^>]*data-testid="card-bg"[^>]*/>\s*}{}gs' "$file"
+          done
+
       - name: Generate WakaTime activity cards
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
