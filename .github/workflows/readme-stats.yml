@@ -1,0 +1,84 @@
+name: Update README Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Ensure profile asset directory exists
+        run: mkdir -p profile
+
+      - name: Generate stats card (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=67E8F9&icon_color=22C55E&text_color=C9D1D9
+          path: profile/stats-dark.svg
+          token: ${{ secrets.README_STATS_TOKEN || github.token }}
+
+      - name: Generate stats card (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=true&bg_color=00000000&title_color=0F172A&icon_color=16A34A&text_color=1F2937
+          path: profile/stats-light.svg
+          token: ${{ secrets.README_STATS_TOKEN || github.token }}
+
+      - name: Generate top languages card (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=67E8F9&text_color=C9D1D9&langs_count=10
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.README_STATS_TOKEN || github.token }}
+
+      - name: Generate top languages card (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=default&hide_border=true&bg_color=00000000&title_color=0F172A&text_color=1F2937&langs_count=10
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.README_STATS_TOKEN || github.token }}
+
+      - name: Generate WakaTime card (dark)
+        run: >
+          curl -fsSL
+          "https://github-readme-stats-fast.vercel.app/api/wakatime?username=nishajangir&range=all_time&layout=compact&langs_count=10&hide_border=true&bg_color=00000000&title_color=67E8F9&icon_color=22C55E&text_color=C9D1D9&custom_title=Time%20by%20Language"
+          -o profile/wakatime-dark.svg
+
+      - name: Generate WakaTime card (light)
+        run: >
+          curl -fsSL
+          "https://github-readme-stats-fast.vercel.app/api/wakatime?username=nishajangir&range=all_time&layout=compact&langs_count=10&hide_border=true&bg_color=00000000&title_color=0F172A&icon_color=16A34A&text_color=1F2937&custom_title=Time%20by%20Language"
+          -o profile/wakatime-light.svg
+
+      - name: Commit cards if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          temp_dir="${RUNNER_TEMP}/profile-cards"
+          mkdir -p "$temp_dir"
+          cp profile/*.svg "$temp_dir"/
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout -B main origin/main
+            mkdir -p profile
+            cp "$temp_dir"/*.svg profile/
+            git add profile/*.svg
+            git diff --cached --quiet && exit 0
+            git commit -m "chore: refresh profile cards"
+            git push origin HEAD:main && exit 0
+          done
+          exit 1

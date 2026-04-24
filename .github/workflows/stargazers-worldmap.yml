@@ -1,0 +1,68 @@
+name: Update Stargazers World Map
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: stargazers-worldmap
+  cancel-in-progress: false
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Ensure profile asset directory exists
+        run: mkdir -p profile
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          filename: profile/stargazers-worldmap.svg
+          output_action: none
+          token: ${{ secrets.README_STATS_TOKEN || github.token }}
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts: no
+          plugin_stargazers_worldmap: yes
+          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
+          plugin_stargazers_worldmap_sample: 200
+
+      - name: Prepare world map SVG
+        run: |
+          rendered_file="/metrics_renders/profile/stargazers-worldmap.svg"
+          temp_file="${RUNNER_TEMP}/stargazers-worldmap.generated.svg"
+
+          sudo cat "$rendered_file" > "$temp_file"
+
+          perl -0pi -e '
+            s{<h2 class="field">.*?</h2>}{}gs;
+            s{<h3 class="margin-lr-auto">Stargazers origins</h3>}{}gs;
+            s{<svg xmlns="http://www\.w3\.org/2000/svg" width="480" height="436" class="">}{<svg xmlns="http://www.w3.org/2000/svg" width="480" height="315" viewBox="0 0 480 315" class="">}s;
+            s{<svg xmlns="http://www\.w3\.org/2000/svg" width="480" height="315">}{<svg xmlns="http://www.w3.org/2000/svg" width="456" height="291" viewBox="0 0 480 315" style="display:block;margin:12px auto;">}s;
+            s{\.margin-bottom\{margin-bottom:16px\}}{.margin-bottom{margin-bottom:0}}s;
+            s{<div xmlns="http://www\.w3\.org/1999/xhtml" id="metrics-end"></div>}{}s;
+          ' "$temp_file"
+
+      - name: Commit map if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          output_file="profile/stargazers-worldmap.svg"
+          temp_file="${RUNNER_TEMP}/stargazers-worldmap.generated.svg"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout -B main origin/main
+            cp "$temp_file" "$output_file"
+            git add "$output_file"
+            git diff --cached --quiet && exit 0
+            git commit -m "chore: refresh stargazers world map"
+            git push origin HEAD:main && exit 0
+          done
+          exit 1

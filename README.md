@@ -123,11 +123,39 @@ Public profile, repositories, live work, and active stack.
 [![Repositories](https://img.shields.io/badge/Repositories-View_Work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir?tab=repositories)
 [![Activity](https://img.shields.io/badge/Activity-Contributions-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishajangir)
 [![Live Project](https://img.shields.io/badge/Live_Project-jagdamba.site-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.jagdamba.site)
-[![WakaTime](https://wakatime.com/badge/user/5bcbc43b-adfb-4ea9-881e-50ab8bd6b247.svg)](https://wakatime.com/@5bcbc43b-adfb-4ea9-881e-50ab8bd6b247)
+[![WakaTime](https://wakatime.com/badge/user/5bcbc43b-adfb-4ea9-881e-50ab8bd6b247.svg)](https://wakatime.com/@nishajangir)
 
 **Core Stack:** Python, TypeScript, JavaScript, SQL, MQL4  
 **Focus:** Trading infrastructure, automation systems, dashboards, data pipelines, and reporting workflows  
 **Public Signal:** Active public repositories, shipped work, and ongoing contribution activity
+
+### Profile Cards
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+    <img width="49%" src="./profile/stats-dark.svg" alt="Nisha's GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=nishajangir&theme=github-dark-blue&hide_border=true&background=00000000&stroke=30363D&ring=67E8F9&fire=22C55E&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=8B949E" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=nishajangir&theme=default&hide_border=true&background=00000000&stroke=D0D7DE&ring=0F172A&fire=16A34A&currStreakLabel=0F172A&sideLabels=1F2937&dates=64748B" />
+    <img width="49%" src="https://streak-stats.demolab.com/?user=nishajangir&theme=github-dark-blue&hide_border=true&background=00000000&stroke=30363D&ring=67E8F9&fire=22C55E&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=8B949E" alt="Nisha's GitHub streak" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
+    <img width="38%" src="./profile/top-langs-dark.svg" alt="Top languages" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-light.svg" />
+    <img width="58%" src="./profile/wakatime-dark.svg" alt="Time by language from WakaTime" />
+  </picture>
+</p>
 
 ### Most Used Languages
 
@@ -155,6 +183,12 @@ Approx. based on tracked source files across current local project repos.
     alt="Nisha's GitHub activity graph"
   />
 </picture>
+
+### Stargazers Around the World
+
+<p align="center">
+  <img width="100%" src="./profile/stargazers-worldmap.svg" alt="Stargazers around the world" />
+</p>
 
 ---
 
