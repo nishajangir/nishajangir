@@ -16,6 +16,21 @@ My focus is on turning **manual, fragmented processes** into reliable systems th
 ![Trading](https://img.shields.io/badge/TRADING-7c3aed?style=for-the-badge&logo=tradingview&logoColor=white)
 ![Profile Views](https://komarev.com/ghpvc/?username=nishajangir&label=PROFILE%20VIEWS&color=1f6feb&style=for-the-badge)
 
+## Coding Activity :stopwatch:
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-merged-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-merged-light.svg" />
+    <img width="49%" src="./profile/wakatime-merged-dark.svg" alt="WakaTime weekly coding activity" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-rank-speed-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-rank-speed-light.svg" />
+    <img width="49%" src="./profile/wakatime-rank-speed-dark.svg" alt="WakaTime ranking and daily pace" />
+  </picture>
+</p>
+
 ## Snapshot
 
 - 📍 Dubai, UAE
@@ -161,27 +176,6 @@ Public profile, repositories, live work, and active stack.
         <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-light.svg" />
         <img src="./profile/wakatime-dark.svg" alt="Time by language from WakaTime" width="100%" />
-      </picture>
-    </td>
-  </tr>
-</table>
-
-### Coding Activity
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-merged-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-merged-light.svg" />
-        <img src="./profile/wakatime-merged-dark.svg" alt="WakaTime weekly coding activity" width="100%" />
-      </picture>
-    </td>
-    <td valign="top" width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-rank-speed-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-rank-speed-light.svg" />
-        <img src="./profile/wakatime-rank-speed-dark.svg" alt="WakaTime ranking and daily pace" width="100%" />
       </picture>
     </td>
   </tr>
