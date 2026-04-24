@@ -64,6 +64,482 @@ jobs:
           "https://github-readme-stats-fast.vercel.app/api/wakatime?username=nishajangir&range=all_time&layout=compact&langs_count=10&hide_border=true&bg_color=00000000&title_color=0F172A&icon_color=16A34A&text_color=1F2937&custom_title=Time%20by%20Language"
           -o profile/wakatime-light.svg
 
+      - name: Generate WakaTime activity cards
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKATIME_USERNAME: current
+        run: |
+          set -euo pipefail
+
+          if [ -z "${WAKATIME_API_KEY:-}" ]; then
+            echo "Skipping WakaTime activity cards because WAKATIME_API_KEY is not set."
+            exit 0
+          fi
+
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+
+          const WIDTH = 432;
+          const HEIGHT = 475;
+          const OUT_DIR = 'profile';
+
+          const provider = {
+            name: 'WakaTime',
+            baseUrl: 'https://wakatime.com',
+            apiBase: '/api/v1',
+            apiKey: process.env.WAKATIME_API_KEY,
+            username: process.env.WAKATIME_USERNAME || 'current',
+          };
+
+          const themes = {
+            dark: {
+              bg: '00000000',
+              border: 'e4e2e2',
+              borderOpacity: 0,
+              text: 'C9D1D9',
+              muted: '8B949E',
+              grid: '30363D',
+              axis: '8B949E',
+              title: '67E8F9',
+              bar: '67E8F9',
+              projectColors: ['10A37F', '67E8F9', '2563EB', 'F59E0B'],
+            },
+            light: {
+              bg: '00000000',
+              border: 'e4e2e2',
+              borderOpacity: 0,
+              text: '1F2937',
+              muted: '64748B',
+              grid: 'D0D7DE',
+              axis: '64748B',
+              title: '0F172A',
+              bar: '2563EB',
+              projectColors: ['10A37F', '0F172A', '2563EB', 'F59E0B'],
+            },
+          };
+
+          function escapeXml(value) {
+            return String(value ?? '')
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;');
+          }
+
+          function totalSeconds(entry) {
+            return Number(entry?.total_seconds ?? entry?.seconds ?? 0) || 0;
+          }
+
+          function totalSecondsSafe(entry) {
+            return Number(entry?.total_seconds ?? entry?.seconds ?? 0) || 0;
+          }
+
+          function formatTime(seconds) {
+            const safe = Math.max(0, Math.round(Number(seconds) || 0));
+            const h = Math.floor(safe / 3600);
+            const m = Math.floor((safe % 3600) / 60);
+            if (h <= 0) return `${m} mins`;
+            return `${h} hrs ${m} mins`;
+          }
+
+          function formatShort(seconds) {
+            const safe = Math.max(0, Math.round(Number(seconds) || 0));
+            const h = Math.floor(safe / 3600);
+            const m = Math.floor((safe % 3600) / 60);
+            if (h <= 0) return `${m}m`;
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+          }
+
+          function truncate(value, max = 24) {
+            const text = String(value || 'Unknown Project');
+            return text.length > max ? `${text.slice(0, max - 3)}...` : text;
+          }
+
+          function dayLabels(date) {
+            const short = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            const full = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const parsed = String(date).includes('T') ? new Date(date) : new Date(`${date}T00:00:00Z`);
+            const index = parsed.getUTCDay();
+            return {
+              short: short[index] || '',
+              full: full[index] || '',
+            };
+          }
+
+          async function fetchJson(path) {
+            const res = await fetch(`${provider.baseUrl}${path}`, {
+              headers: {
+                Authorization: `Basic ${Buffer.from(provider.apiKey).toString('base64')}`,
+                Accept: 'application/json',
+              },
+            });
+
+            if (!res.ok) {
+              const body = await res.text().catch(() => '');
+              throw new Error(`${provider.name} ${path} failed with ${res.status}: ${body.slice(0, 160)}`);
+            }
+
+            return res.json();
+          }
+
+          async function loadData() {
+            const user = encodeURIComponent(provider.username);
+            const summaries = await fetchJson(`${provider.apiBase}/users/${user}/summaries?range=last_7_days`);
+            let leaders = null;
+
+            try {
+              leaders = await fetchJson(`${provider.apiBase}/leaders`);
+            } catch (error) {
+              console.warn('WakaTime leaders endpoint unavailable; rank card will use activity fallback.');
+            }
+
+            const days = (summaries.data || [])
+              .map((day) => {
+                const labels = dayLabels(day.range?.start || day.range?.date || '');
+                return {
+                  label: labels.short,
+                  fullLabel: labels.full,
+                  seconds: totalSeconds(day.grand_total),
+                  projects: Array.isArray(day.projects) ? day.projects : [],
+                };
+              })
+              .slice(-7);
+
+            if (days.length === 0) {
+              throw new Error('WakaTime returned no summary data.');
+            }
+
+            return { provider, days, leaders };
+          }
+
+          function projectTotals(days) {
+            const totals = new Map();
+            for (const day of days) {
+              for (const project of day.projects) {
+                const name = project.name || 'Unknown Project';
+                totals.set(name, (totals.get(name) || 0) + totalSeconds(project));
+              }
+            }
+
+            return [...totals.entries()]
+              .map(([name, seconds]) => ({ name, seconds }))
+              .filter((project) => project.seconds > 0)
+              .sort((a, b) => b.seconds - a.seconds);
+          }
+
+          function topProjectNames(days) {
+            const totals = projectTotals(days);
+            if (totals.length === 0) return ['Unknown Project'];
+            if (totals.length <= 4) return totals.map((project) => project.name);
+            return [...totals.slice(0, 3).map((project) => project.name), 'Other Projects'];
+          }
+
+          function projectSegments(day, names) {
+            const totals = new Map(names.map((name) => [name, 0]));
+            const otherName = names.includes('Other Projects') ? 'Other Projects' : names[names.length - 1];
+            let summed = 0;
+
+            for (const project of day.projects) {
+              const name = project.name || 'Unknown Project';
+              const seconds = totalSeconds(project);
+              if (totals.has(name)) {
+                totals.set(name, (totals.get(name) || 0) + seconds);
+              } else if (otherName) {
+                totals.set(otherName, (totals.get(otherName) || 0) + seconds);
+              }
+              summed += seconds;
+            }
+
+            if (day.projects.length === 0) {
+              totals.set(names[0], day.seconds);
+              return names.map((name) => ({ name, seconds: totals.get(name) || 0 }));
+            }
+
+            const remainder = Math.max(0, day.seconds - summed);
+            if (remainder > 0) {
+              totals.set(otherName, (totals.get(otherName) || 0) + remainder);
+            }
+
+            return names.map((name) => ({ name, seconds: totals.get(name) || 0 }));
+          }
+
+          function renderProjectChart(data, theme, y) {
+            const { days } = data;
+            const names = topProjectNames(days);
+            const totals = projectTotals(days);
+            const mostWorked = totals[0]?.name || 'Unknown Project';
+
+            const chartX = 70;
+            const chartY = y + 55;
+            const chartW = 310;
+            const chartH = 82;
+            const baseY = chartY + chartH;
+            const slot = chartW / days.length;
+            const barW = 30;
+            const max = Math.max(1, ...days.map((day) => Math.max(day.seconds, projectSegments(day, names).reduce((sum, segment) => sum + segment.seconds, 0))));
+            const ticks = [1, 0.75, 0.5, 0.25, 0];
+
+            const grid = ticks.map((ratio) => {
+              const gy = chartY + chartH * (1 - ratio);
+              return `
+                <line x1="${chartX}" y1="${gy.toFixed(1)}" x2="${chartX + chartW}" y2="${gy.toFixed(1)}" stroke="#${theme.grid}" stroke-width="1" stroke-dasharray="2 3"/>
+                <text x="58" y="${(gy + 3).toFixed(1)}" fill="#${theme.axis}" font-size="9" text-anchor="end">${escapeXml(formatShort(max * ratio))}</text>
+              `;
+            }).join('');
+
+            const bars = days.map((day, index) => {
+              const x = chartX + slot * index + (slot - barW) / 2;
+              let cursor = baseY;
+              const segments = projectSegments(day, names);
+              const parts = segments.map((segment, segmentIndex) => {
+                const h = max > 0 ? (segment.seconds / max) * chartH : 0;
+                if (h <= 0.4) return '';
+                cursor -= h;
+                return `<rect x="${x.toFixed(1)}" y="${cursor.toFixed(1)}" width="${barW}" height="${h.toFixed(1)}" fill="#${theme.projectColors[segmentIndex % theme.projectColors.length]}" rx="${cursor + h >= baseY ? 4 : 0}"/>`;
+              }).join('');
+              return `
+                ${parts}
+                <text x="${x + barW / 2}" y="${baseY + 14}" fill="#${theme.text}" font-size="10" font-weight="700" text-anchor="middle">${escapeXml(day.label)}</text>
+              `;
+            }).join('');
+
+            const legend = names.map((name, index) => {
+              const col = index % 2;
+              const row = Math.floor(index / 2);
+              const lx = 74 + col * 186;
+              const ly = y + 176 + row * 22;
+              return `
+                <circle cx="${lx}" cy="${ly}" r="5" fill="#${theme.projectColors[index % theme.projectColors.length]}"/>
+                <text x="${lx + 14}" y="${ly + 4}" fill="#${theme.text}" font-size="10">${escapeXml(truncate(name, 24))}</text>
+              `;
+            }).join('');
+
+            return `
+              <text x="${WIDTH / 2}" y="${y + 26}" fill="#${theme.title}" font-size="13" font-weight="700" text-anchor="middle">I mostly worked on ${escapeXml(truncate(mostWorked, 30))}</text>
+              ${grid}
+              ${bars}
+              ${legend}
+            `;
+          }
+
+          function renderWeeklyChart(data, theme, y) {
+            const { days } = data;
+            const total = days.reduce((sum, day) => sum + day.seconds, 0);
+            const best = days.reduce((max, day) => day.seconds > max.seconds ? day : max, days[0]);
+
+            const chartX = 38;
+            const chartY = y + 52;
+            const chartW = 356;
+            const chartH = 82;
+            const baseY = chartY + chartH;
+            const slot = chartW / days.length;
+            const barW = 30;
+            const max = Math.max(1, ...days.map((day) => day.seconds));
+
+            const bars = days.map((day, index) => {
+              const x = chartX + slot * index + (slot - barW) / 2;
+              const h = Math.max(day.seconds > 0 ? 4 : 2, (day.seconds / max) * chartH);
+              const by = baseY - h;
+              const pct = total > 0 ? `${((day.seconds / total) * 100).toFixed(1)}%` : '0.0%';
+              return `
+                <text x="${x + barW / 2}" y="${by - 7}" fill="#${theme.text}" font-size="9" text-anchor="middle">${escapeXml(formatShort(day.seconds))}</text>
+                <rect x="${x.toFixed(1)}" y="${by.toFixed(1)}" width="${barW}" height="${h.toFixed(1)}" fill="#${theme.bar}" rx="4"/>
+                <text x="${x + barW / 2}" y="${baseY + 15}" fill="#${theme.text}" font-size="10" font-weight="700" text-anchor="middle">${escapeXml(day.label)}</text>
+                <text x="${x + barW / 2}" y="${baseY + 29}" fill="#${theme.muted}" font-size="9" text-anchor="middle">${escapeXml(pct)}</text>
+              `;
+            }).join('');
+
+            return `
+              <text x="${WIDTH / 2}" y="${y + 24}" fill="#${theme.title}" font-size="13" font-weight="700" text-anchor="middle">My most productive day was ${escapeXml(best.fullLabel || best.label)}</text>
+              ${bars}
+              <text x="${WIDTH / 2}" y="${y + 194}" fill="#${theme.text}" font-size="12" text-anchor="middle"><tspan font-weight="700">Total:</tspan> ${escapeXml(formatTime(total))}</text>
+            `;
+          }
+
+          function weeklyTotalSeconds(data) {
+            return data.days.reduce((sum, day) => sum + day.seconds, 0);
+          }
+
+          function leaderboardInfo(data) {
+            const current = data.leaders?.current_user;
+            const entries = Array.isArray(data.leaders?.data) ? data.leaders.data : [];
+            const username = String(data.provider.username || '').toLowerCase();
+            const currentRank = Number(current?.rank || 0) || null;
+            const entry = entries.find((item) => Number(item?.rank) === currentRank)
+              || entries.find((item) => {
+                const user = item?.user || {};
+                return [user.id, user.username, user.display_name]
+                  .filter(Boolean)
+                  .some((value) => String(value).toLowerCase() === username);
+              });
+
+            const total = totalSecondsSafe(entry?.running_total) || weeklyTotalSeconds(data);
+            return {
+              rank: currentRank || Number(entry?.rank || 0) || null,
+              totalSeconds: total,
+              humanTotal: entry?.running_total?.human_readable_total || formatTime(total),
+            };
+          }
+
+          function tierForRank(rank) {
+            const tiers = [
+              { name: 'Diamond', min: 1, max: 10, colorIndex: 1 },
+              { name: 'Gold', min: 11, max: 50, colorIndex: 3 },
+              { name: 'Silver', min: 51, max: 100, colorIndex: 2 },
+              { name: 'Bronze', min: 101, max: 1000, colorIndex: 0 },
+              { name: 'Obsidian', min: 1001, max: Infinity, colorIndex: 2 },
+            ];
+            if (!rank) return { name: 'Weekly', min: 1, max: 10, colorIndex: 1 };
+            return tiers.find((tier) => rank >= tier.min && rank <= tier.max) || tiers[tiers.length - 1];
+          }
+
+          function speedometerPoint(cx, cy, radius, angleDeg) {
+            const radians = ((angleDeg - 90) * Math.PI) / 180;
+            return {
+              x: cx + radius * Math.cos(radians),
+              y: cy + radius * Math.sin(radians),
+            };
+          }
+
+          function speedometerArcPath(cx, cy, radius, startAngle, endAngle) {
+            const start = speedometerPoint(cx, cy, radius, startAngle);
+            const end = speedometerPoint(cx, cy, radius, endAngle);
+            const largeArcFlag = Math.abs(endAngle - startAngle) > 180 ? 1 : 0;
+            return `M ${start.x.toFixed(1)} ${start.y.toFixed(1)} A ${radius} ${radius} 0 ${largeArcFlag} 1 ${end.x.toFixed(1)} ${end.y.toFixed(1)}`;
+          }
+
+          function hexToRgb(hex) {
+            const safe = String(hex || '67E8F9').replace(/^#/, '');
+            const value = parseInt(safe.length === 3 ? safe.split('').map((c) => c + c).join('') : safe, 16);
+            return {
+              r: (value >> 16) & 255,
+              g: (value >> 8) & 255,
+              b: value & 255,
+            };
+          }
+
+          function hexToRgba(hex, opacity) {
+            const { r, g, b } = hexToRgb(hex);
+            return `rgba(${r},${g},${b},${opacity})`;
+          }
+
+          function renderRankCard(data, theme, y) {
+            const info = leaderboardInfo(data);
+            const tier = tierForRank(info.rank);
+            const tierColor = theme.projectColors[tier.colorIndex % theme.projectColors.length];
+            const tierSize = Number.isFinite(tier.max) ? tier.max - tier.min + 1 : 10000;
+            const tierProgress = info.rank
+              ? Number.isFinite(tier.max)
+                ? Math.max(0.08, Math.min(1, (tier.max - info.rank + 1) / tierSize))
+                : Math.max(0.08, Math.min(1, tier.min / Math.max(info.rank, tier.min)))
+              : Math.min(1, weeklyTotalSeconds(data) / (40 * 3600));
+            const rankText = info.rank ? `Rank #${info.rank}` : 'Rank syncing';
+            const tierRange = Number.isFinite(tier.max) ? `#${tier.min}-${tier.max}` : `#${tier.min}+`;
+            const progressWidth = 188 * tierProgress;
+
+            return `
+              <text x="${WIDTH / 2}" y="${y + 26}" fill="#${theme.title}" font-size="15" font-weight="700" text-anchor="middle">Weekly Ranking</text>
+              <circle cx="104" cy="${y + 108}" r="54" fill="none" stroke="#${tierColor}" stroke-width="5" opacity="0.25"/>
+              <circle cx="104" cy="${y + 108}" r="39" fill="#${theme.title}" opacity="0.12"/>
+              <path d="M104 ${y + 64} L114 ${y + 94} L146 ${y + 94} L120 ${y + 112} L130 ${y + 144} L104 ${y + 125} L78 ${y + 144} L88 ${y + 112} L62 ${y + 94} L94 ${y + 94} Z" fill="#${tierColor}" opacity="0.9"/>
+              <text x="104" y="${y + 182}" fill="#${theme.text}" font-size="16" font-weight="800" text-anchor="middle">${escapeXml(tier.name)}</text>
+
+              <text x="184" y="${y + 80}" fill="#${theme.text}" font-size="23" font-weight="800">${escapeXml(rankText)}</text>
+              <text x="184" y="${y + 109}" fill="#${theme.text}" font-size="13" font-weight="700">${escapeXml(tier.name)} Tier</text>
+              <text x="184" y="${y + 130}" fill="#${theme.muted}" font-size="11">${escapeXml(tierRange)} leaderboard band</text>
+              <rect x="184" y="${y + 148}" width="188" height="9" rx="4.5" fill="#${theme.grid}" opacity="0.85"/>
+              <rect x="184" y="${y + 148}" width="${progressWidth.toFixed(1)}" height="9" rx="4.5" fill="#${theme.bar}"/>
+              <text x="184" y="${y + 181}" fill="#${theme.text}" font-size="13" font-weight="700">${escapeXml(info.humanTotal)}</text>
+              <text x="184" y="${y + 201}" fill="#${theme.muted}" font-size="10">weekly coding total</text>
+            `;
+          }
+
+          function renderSpeedometer(data, theme, y) {
+            const today = data.days[data.days.length - 1] || { seconds: 0 };
+            const total = weeklyTotalSeconds(data);
+            const dailyAverage = total / Math.max(1, data.days.length);
+            const best = data.days.reduce((max, day) => day.seconds > max.seconds ? day : max, data.days[0]);
+            const bestSeconds = Math.max(best?.seconds || 0, dailyAverage, 1);
+            const scaleMax = bestSeconds / 0.82;
+            const percent = Math.max(0, Math.min(1, today.seconds / scaleMax));
+            const percentChange = dailyAverage > 0 ? Math.round(((today.seconds - dailyAverage) / dailyAverage) * 100) : 0;
+
+            const cx = WIDTH / 2;
+            const cy = y + 148;
+            const radius = 76;
+            const strokeWidth = 32;
+            const labels = ['Bronze', 'Silver', 'Gold', 'Platinum', 'Diamond'];
+            const opacities = [0.16, 0.32, 0.5, 0.72, 1];
+            const segments = labels.map((label, index) => {
+              const start = -90 + index * 36;
+              const end = start + 36;
+              const labelPathId = `speedLabel-${theme.title}-${index}`;
+              return `
+                <path d="${speedometerArcPath(cx, cy, radius, start, end)}" stroke="${hexToRgba(theme.bar, opacities[index])}" stroke-width="${strokeWidth}" fill="none"/>
+                <path id="${labelPathId}" d="${speedometerArcPath(cx, cy, radius + 22, start, end)}" fill="none"/>
+                <text font-size="9" fill="#${theme.text}">
+                  <textPath href="#${labelPathId}" startOffset="50%" text-anchor="middle">${escapeXml(label)}</textPath>
+                </text>
+              `;
+            }).join('');
+            const needleAngle = (percent * 180) - 90;
+            const tip = speedometerPoint(cx, cy, radius - 3, needleAngle);
+            const left = speedometerPoint(cx, cy, 5, needleAngle + 90);
+            const right = speedometerPoint(cx, cy, 5, needleAngle - 90);
+            const arrow = percentChange >= 0
+              ? '<path d="M7 12 L7 3 M7 3 L3 7 M7 3 L11 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+              : '<path d="M7 3 L7 12 M7 12 L3 8 M7 12 L11 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
+
+            return `
+              <text x="${cx}" y="${y + 24}" fill="#${theme.title}" font-size="15" font-weight="800" text-anchor="middle">${escapeXml(formatTime(today.seconds))} Today</text>
+              <g>${segments}</g>
+              <polygon points="${left.x.toFixed(1)},${left.y.toFixed(1)} ${tip.x.toFixed(1)},${tip.y.toFixed(1)} ${right.x.toFixed(1)},${right.y.toFixed(1)}" fill="#${theme.bar}"/>
+              <circle cx="${cx}" cy="${cy}" r="5" fill="#${theme.bar}"/>
+              <g transform="translate(${cx - 54}, ${y + 165})" style="color:#${theme.text}">
+                <svg width="14" height="14" viewBox="0 0 14 14">${arrow}</svg>
+                <text x="20" y="12" fill="#${theme.text}" font-size="12">${Math.abs(percentChange)}% ${percentChange >= 0 ? 'increase' : 'decrease'}</text>
+              </g>
+              <text x="${cx}" y="${y + 201}" fill="#${theme.text}" font-size="12" text-anchor="middle"><tspan font-weight="800">${escapeXml(formatTime(dailyAverage))}</tspan> Daily Average</text>
+            `;
+          }
+
+          function renderMerged(data, theme) {
+            return `<svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg" style="font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;">
+            <rect x="0.5" y="0.5" width="${WIDTH - 1}" height="${HEIGHT - 1}" fill="#${theme.bg}" stroke="#${theme.border}" stroke-opacity="${theme.borderOpacity}" rx="4.5"/>
+            <g transform="translate(0 12)">
+              ${renderProjectChart(data, theme, 0)}
+            </g>
+            <g transform="translate(0 254)">
+              ${renderWeeklyChart(data, theme, 0)}
+            </g>
+          </svg>
+          `;
+          }
+
+          function renderRankSpeed(data, theme) {
+            return `<svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg" style="font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;">
+            <rect x="0.5" y="0.5" width="${WIDTH - 1}" height="${HEIGHT - 1}" fill="#${theme.bg}" stroke="#${theme.border}" stroke-opacity="${theme.borderOpacity}" rx="4.5"/>
+            <g transform="translate(0 12)">
+              ${renderRankCard(data, theme, 0)}
+            </g>
+            <g transform="translate(0 254)">
+              ${renderSpeedometer(data, theme, 0)}
+            </g>
+          </svg>
+          `;
+          }
+
+          function writeCards(data) {
+            fs.mkdirSync(OUT_DIR, { recursive: true });
+            fs.writeFileSync(`${OUT_DIR}/wakatime-merged-dark.svg`, renderMerged(data, themes.dark));
+            fs.writeFileSync(`${OUT_DIR}/wakatime-merged-light.svg`, renderMerged(data, themes.light));
+            fs.writeFileSync(`${OUT_DIR}/wakatime-rank-speed-dark.svg`, renderRankSpeed(data, themes.dark));
+            fs.writeFileSync(`${OUT_DIR}/wakatime-rank-speed-light.svg`, renderRankSpeed(data, themes.light));
+          }
+
+          writeCards(await loadData());
+          NODE
+
       - name: Commit cards if changed
         run: |
           git config user.name "github-actions[bot]"

@@ -166,6 +166,27 @@ Public profile, repositories, live work, and active stack.
   </tr>
 </table>
 
+### Coding Activity
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-merged-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-merged-light.svg" />
+        <img src="./profile/wakatime-merged-dark.svg" alt="WakaTime weekly coding activity" width="100%" />
+      </picture>
+    </td>
+    <td valign="top" width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-rank-speed-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-rank-speed-light.svg" />
+        <img src="./profile/wakatime-rank-speed-dark.svg" alt="WakaTime ranking and daily pace" width="100%" />
+      </picture>
+    </td>
+  </tr>
+</table>
+
 ### Contribution Activity
 
 <picture>
