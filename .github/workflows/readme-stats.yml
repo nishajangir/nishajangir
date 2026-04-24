@@ -155,6 +155,22 @@ jobs:
             return text.length > max ? `${text.slice(0, max - 3)}...` : text;
           }
 
+          function sanitizeProjectName(value) {
+            const raw = String(value || '').trim();
+            if (!raw) return 'Automation Project';
+
+            const normalized = raw.toLowerCase();
+
+            if (/\b(bot|telegram|whatsapp|discord)\b/.test(normalized)) return 'Bot Operations';
+            if (/\b(mt4|mt5|mql|indicator|scanner|bridge|trade|trading|premium|profit|signal|chart)\b/.test(normalized)) return 'Trading Tools';
+            if (/\b(site|web|frontend|ui|landing|dashboard|panel)\b/.test(normalized)) return 'Dashboard Project';
+            if (/\b(api|backend|server|service|worker|cron|queue)\b/.test(normalized)) return 'Backend Automation';
+            if (/\b(scraper|parser|extract|import|export|report|etl|sync|excel|csv|sheet|data)\b/.test(normalized)) return 'Data Pipeline';
+            if (/\b(client|crm|ops|operation|hisab|account|lead|sales|support)\b/.test(normalized)) return 'Operations System';
+
+            return 'Automation Project';
+          }
+
           function dayLabels(date) {
             const short = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
             const full = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -216,7 +232,7 @@ jobs:
             const totals = new Map();
             for (const day of days) {
               for (const project of day.projects) {
-                const name = project.name || 'Unknown Project';
+                const name = sanitizeProjectName(project.name);
                 totals.set(name, (totals.get(name) || 0) + totalSeconds(project));
               }
             }
@@ -229,18 +245,18 @@ jobs:
 
           function topProjectNames(days) {
             const totals = projectTotals(days);
-            if (totals.length === 0) return ['Unknown Project'];
+            if (totals.length === 0) return ['Automation Project'];
             if (totals.length <= 4) return totals.map((project) => project.name);
-            return [...totals.slice(0, 3).map((project) => project.name), 'Other Projects'];
+            return [...totals.slice(0, 3).map((project) => project.name), 'Other Work'];
           }
 
           function projectSegments(day, names) {
             const totals = new Map(names.map((name) => [name, 0]));
-            const otherName = names.includes('Other Projects') ? 'Other Projects' : names[names.length - 1];
+            const otherName = names.includes('Other Work') ? 'Other Work' : names[names.length - 1];
             let summed = 0;
 
             for (const project of day.projects) {
-              const name = project.name || 'Unknown Project';
+              const name = sanitizeProjectName(project.name);
               const seconds = totalSeconds(project);
               if (totals.has(name)) {
                 totals.set(name, (totals.get(name) || 0) + seconds);
@@ -267,7 +283,7 @@ jobs:
             const { days } = data;
             const names = topProjectNames(days);
             const totals = projectTotals(days);
-            const mostWorked = totals[0]?.name || 'Unknown Project';
+            const mostWorked = totals[0]?.name || 'Automation Project';
 
             const chartX = 70;
             const chartY = y + 55;
