@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="pandas">
+  <rect width="64" height="64" rx="8" fill="#1f2430"/>
+  <rect x="16" y="14" width="8" height="36" rx="4" fill="#7c3aed"/>
+  <rect x="28" y="10" width="8" height="44" rx="4" fill="#ffffff"/>
+  <rect x="40" y="14" width="8" height="36" rx="4" fill="#10b981"/>
+</svg>

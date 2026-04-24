@@ -86,9 +86,9 @@ These are the areas and tools I work with most often:
     <td align="center"><img title="React" alt="React" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/react.svg" /><br>React</td>
     <td align="center"><img title="Next.js" alt="Next.js" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/nextjs.svg" /><br>Next.js</td>
     <td align="center"><img title="Tailwind CSS" alt="Tailwind CSS" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/tailwindcss.svg" /><br>Tailwind</td>
-    <td align="center"><img title="Radix UI" alt="Radix UI" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/radix-ui/radix-ui.png" /><br>Radix UI</td>
+    <td align="center"><img title="Radix UI" alt="Radix UI" width="40" src="./.github-profile-assets/icon-radix-ui.svg" /><br>Radix UI</td>
     <td align="center"><img title="Vercel" alt="Vercel" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/vercel.svg" /><br>Vercel</td>
-    <td align="center"><img title="Charts" alt="Charts" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/chartjs/chartjs.png" /><br>Charts</td>
+    <td align="center"><img title="Charts" alt="Charts" width="40" src="./.github-profile-assets/icon-charts.svg" /><br>Charts</td>
   </tr>
 </table>
 
@@ -99,7 +99,7 @@ These are the areas and tools I work with most often:
     <td align="center"><img title="FastAPI" alt="FastAPI" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/fastapi.svg" /><br>FastAPI</td>
     <td align="center"><img title="Node.js" alt="Node.js" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/nodejs.svg" /><br>Node.js</td>
     <td align="center"><img title="Uvicorn" alt="Uvicorn" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" /><br>Uvicorn</td>
-    <td align="center"><img title="SQLAlchemy" alt="SQLAlchemy" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/sqlalchemy/sqlalchemy.png" /><br>SQLAlchemy</td>
+    <td align="center"><img title="SQLAlchemy" alt="SQLAlchemy" width="40" src="./.github-profile-assets/icon-sqlalchemy.svg" /><br>SQLAlchemy</td>
     <td align="center"><img title="HTTPX" alt="HTTPX" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" /><br>HTTPX</td>
     <td align="center"><img title="Telegram Bot APIs" alt="Telegram Bot APIs" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/telegram.svg" /><br>Telegram</td>
   </tr>
@@ -111,9 +111,9 @@ These are the areas and tools I work with most often:
   <tr>
     <td align="center"><img title="PostgreSQL" alt="PostgreSQL" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/postgresql.svg" /><br>PostgreSQL</td>
     <td align="center"><img title="SQLite" alt="SQLite" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/sqlite.svg" /><br>SQLite</td>
-    <td align="center"><img title="CSV / Excel" alt="CSV / Excel" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/excel/excel.png" /><br>CSV / Excel</td>
+    <td align="center"><img title="CSV / Excel" alt="CSV / Excel" width="40" src="./.github-profile-assets/icon-excel.svg" /><br>CSV / Excel</td>
     <td align="center"><img title="JSON" alt="JSON" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/json/json.png" /><br>JSON</td>
-    <td align="center"><img title="pandas" alt="pandas" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/pandas/pandas.png" /><br>pandas</td>
+    <td align="center"><img title="pandas" alt="pandas" width="40" src="./.github-profile-assets/icon-pandas.svg" /><br>pandas</td>
     <td align="center"><img title="openpyxl" alt="openpyxl" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" /><br>openpyxl</td>
   </tr>
 </table>
