@@ -1,0 +1,63 @@
+<svg width="432" height="475" viewBox="0 0 432 475" xmlns="http://www.w3.org/2000/svg" style="font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;">
+  <rect x="0.5" y="0.5" width="431" height="474" fill="#00000000" stroke="#e4e2e2" stroke-opacity="0" rx="4.5"/>
+  <g transform="translate(0 12)">
+    
+    <text x="216" y="26" fill="#67E8F9" font-size="15" font-weight="700" text-anchor="middle">Weekly Ranking</text>
+    <circle cx="104" cy="108" r="54" fill="none" stroke="#2563EB" stroke-width="5" opacity="0.25"/>
+    <circle cx="104" cy="108" r="39" fill="#67E8F9" opacity="0.12"/>
+    <path d="M104 64 L114 94 L146 94 L120 112 L130 144 L104 125 L78 144 L88 112 L62 94 L94 94 Z" fill="#2563EB" opacity="0.9"/>
+    <text x="104" y="182" fill="#C9D1D9" font-size="16" font-weight="800" text-anchor="middle">Obsidian</text>
+
+    <text x="184" y="80" fill="#C9D1D9" font-size="23" font-weight="800">Rank #6791</text>
+    <text x="184" y="109" fill="#C9D1D9" font-size="13" font-weight="700">Obsidian Tier</text>
+    <text x="184" y="130" fill="#8B949E" font-size="11">#1001+ leaderboard band</text>
+    <rect x="184" y="148" width="188" height="9" rx="4.5" fill="#30363D" opacity="0.85"/>
+    <rect x="184" y="148" width="27.7" height="9" rx="4.5" fill="#67E8F9"/>
+    <text x="184" y="181" fill="#C9D1D9" font-size="13" font-weight="700">10 hrs 53 mins</text>
+    <text x="184" y="201" fill="#8B949E" font-size="10">weekly coding total</text>
+  
+  </g>
+  <g transform="translate(0 254)">
+    
+    <text x="216" y="24" fill="#67E8F9" font-size="15" font-weight="800" text-anchor="middle">24 mins Today</text>
+    <g>
+      <path d="M 140.0 148.0 A 76 76 0 0 1 154.5 103.3" stroke="rgba(103,232,249,0.16)" stroke-width="32" fill="none"/>
+      <path id="speedLabel-67E8F9-0" d="M 118.0 148.0 A 98 98 0 0 1 136.7 90.4" fill="none"/>
+      <text font-size="9" fill="#C9D1D9">
+        <textPath href="#speedLabel-67E8F9-0" startOffset="50%" text-anchor="middle">Bronze</textPath>
+      </text>
+    
+      <path d="M 154.5 103.3 A 76 76 0 0 1 192.5 75.7" stroke="rgba(103,232,249,0.32)" stroke-width="32" fill="none"/>
+      <path id="speedLabel-67E8F9-1" d="M 136.7 90.4 A 98 98 0 0 1 185.7 54.8" fill="none"/>
+      <text font-size="9" fill="#C9D1D9">
+        <textPath href="#speedLabel-67E8F9-1" startOffset="50%" text-anchor="middle">Silver</textPath>
+      </text>
+    
+      <path d="M 192.5 75.7 A 76 76 0 0 1 239.5 75.7" stroke="rgba(103,232,249,0.5)" stroke-width="32" fill="none"/>
+      <path id="speedLabel-67E8F9-2" d="M 185.7 54.8 A 98 98 0 0 1 246.3 54.8" fill="none"/>
+      <text font-size="9" fill="#C9D1D9">
+        <textPath href="#speedLabel-67E8F9-2" startOffset="50%" text-anchor="middle">Gold</textPath>
+      </text>
+    
+      <path d="M 239.5 75.7 A 76 76 0 0 1 277.5 103.3" stroke="rgba(103,232,249,0.72)" stroke-width="32" fill="none"/>
+      <path id="speedLabel-67E8F9-3" d="M 246.3 54.8 A 98 98 0 0 1 295.3 90.4" fill="none"/>
+      <text font-size="9" fill="#C9D1D9">
+        <textPath href="#speedLabel-67E8F9-3" startOffset="50%" text-anchor="middle">Platinum</textPath>
+      </text>
+    
+      <path d="M 277.5 103.3 A 76 76 0 0 1 292.0 148.0" stroke="rgba(103,232,249,1)" stroke-width="32" fill="none"/>
+      <path id="speedLabel-67E8F9-4" d="M 295.3 90.4 A 98 98 0 0 1 314.0 148.0" fill="none"/>
+      <text font-size="9" fill="#C9D1D9">
+        <textPath href="#speedLabel-67E8F9-4" startOffset="50%" text-anchor="middle">Diamond</textPath>
+      </text>
+    </g>
+    <polygon points="217.2,143.2 145.2,130.1 214.8,152.8" fill="#67E8F9"/>
+    <circle cx="216" cy="148" r="5" fill="#67E8F9"/>
+    <g transform="translate(162, 165)" style="color:#C9D1D9">
+      <svg width="14" height="14" viewBox="0 0 14 14"><path d="M7 3 L7 12 M7 12 L3 8 M7 12 L11 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <text x="20" y="12" fill="#C9D1D9" font-size="12">83% decrease</text>
+    </g>
+    <text x="216" y="201" fill="#C9D1D9" font-size="12" text-anchor="middle"><tspan font-weight="800">2 hrs 24 mins</tspan> Daily Average</text>
+  
+  </g>
+</svg>
