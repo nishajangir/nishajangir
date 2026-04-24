@@ -48,7 +48,7 @@ These are the areas and tools I work with most often:
     <td align="center"><img title="Bash" alt="Bash" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/bash.svg" /><br>Bash</td>
     <td align="center"><img title="HTML" alt="HTML" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/html.svg" /><br>HTML</td>
     <td align="center"><img title="CSS" alt="CSS" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/css.svg" /><br>CSS</td>
-    <td align="center"><img title="MQL4" alt="MQL4" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/tradingview/tradingview.png" /><br>MQL4</td>
+    <td align="center"><img title="MQL4" alt="MQL4" width="40" src="./.github-profile-assets/icon-mql4.svg" /><br>MQL4</td>
   </tr>
 </table>
 
@@ -110,7 +110,7 @@ These are the areas and tools I work with most often:
     <td align="center"><img title="Uvicorn" alt="Uvicorn" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" /><br>Uvicorn</td>
     <td align="center"><img title="SQLAlchemy" alt="SQLAlchemy" width="40" src="./.github-profile-assets/icon-sqlalchemy.svg" /><br>SQLAlchemy</td>
     <td align="center"><img title="HTTPX" alt="HTTPX" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" /><br>HTTPX</td>
-    <td align="center"><img title="Telegram Bot APIs" alt="Telegram Bot APIs" width="40" src="https://raw.githubusercontent.com/Artist-MOBAI/MOBAIcons/main/icons/telegram.svg" /><br>Telegram</td>
+    <td align="center"><img title="Telegram Bot APIs" alt="Telegram Bot APIs" width="40" src="./.github-profile-assets/icon-telegram-bot.svg" /><br>Telegram</td>
   </tr>
 </table>
 
