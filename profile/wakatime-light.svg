@@ -1,36 +1,303 @@
-<svg width="432" height="220" viewBox="0 0 432 220" xmlns="http://www.w3.org/2000/svg" style="font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;">
-    <text x="18" y="26" fill="#0F172A" font-size="15" font-weight="800">Time by Language</text>
-    <rect x="18" y="48" width="396" height="12" fill="#D0D7DE" rx="6"/>
-    <rect x="18.0" y="48" width="147.9" height="12" fill="#3572A5" rx="6"/><rect x="165.9" y="48" width="111.9" height="12" fill="#A1A1AA" rx="0"/><rect x="277.8" y="48" width="54.9" height="12" fill="#3178C6" rx="0"/><rect x="332.7" y="48" width="35.1" height="12" fill="#A1A1AA" rx="0"/><rect x="367.7" y="48" width="16.5" height="12" fill="#A1A1AA" rx="0"/><rect x="384.2" y="48" width="8.7" height="12" fill="#A1A1AA" rx="0"/><rect x="392.9" y="48" width="7.6" height="12" fill="#F59E0B" rx="0"/><rect x="400.5" y="48" width="5.2" height="12" fill="#E34C26" rx="0"/><rect x="405.7" y="48" width="4.4" height="12" fill="#A1A1AA" rx="0"/><rect x="410.1" y="48" width="3.9" height="12" fill="#A1A1AA" rx="6"/>
+
+      <svg
+        width="495"
+        height="215"
+        viewBox="0 0 495 215"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #0F172A;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
     
-      <circle cx="26" cy="96" r="7" fill="#3572A5"/>
-      <text x="40" y="103" fill="#1F2937" font-size="10.5" font-weight="600">Python - 34 hrs 18 mins</text>
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #1F2937;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    .not_bold { font-weight: 400 }
+    .bold { font-weight: 700 }
+  
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
+      }
+    }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #1F2937 }
+    #rect-mask rect{
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
+    .lang-progress{
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
+    }
     
-      <circle cx="232" cy="96" r="7" fill="#A1A1AA"/>
-      <text x="246" y="103" fill="#1F2937" font-size="10.5" font-weight="600">Other - 25 hrs 57 mins</text>
+
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
     
-      <circle cx="26" cy="130" r="7" fill="#3178C6"/>
-      <text x="40" y="137" fill="#1F2937" font-size="10.5" font-weight="600">TypeScript - 12 hrs 44 mins</text>
+          
+        </style>
+
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="494"
+          fill="#00000000"
+          stroke-opacity="0"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Time by Language</text>
+    </g>
+      </g>
     
-      <circle cx="232" cy="130" r="7" fill="#A1A1AA"/>
-      <text x="246" y="137" fill="#1F2937" font-size="10.5" font-weight="600">MQL - 8 hrs 8 mins</text>
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <svg x="0" y="0" width="100%">
+      
+      <mask id="rect-mask">
+      <rect x="25" y="0" width="440" height="8" fill="white" rx="5" />
+      </mask>
+      
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="0"
+            y="0"
+            width="174.003"
+            height="8"
+            fill="#3572A5"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="174.003"
+            y="0"
+            width="131.6415"
+            height="8"
+            fill="#858585"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="305.6445"
+            y="0"
+            width="64.58850000000001"
+            height="8"
+            fill="#3178c6"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="370.233"
+            y="0"
+            width="41.24549999999999"
+            height="8"
+            fill="#858585"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="411.4785"
+            y="0"
+            width="19.3905"
+            height="8"
+            fill="#083fa1"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="430.86899999999997"
+            y="0"
+            width="10.1835"
+            height="8"
+            fill="#858585"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="441.05249999999995"
+            y="0"
+            width="8.927999999999999"
+            height="8"
+            fill="#292929"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="449.98049999999995"
+            y="0"
+            width="6.138000000000001"
+            height="8"
+            fill="#e34c26"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="456.1184999999999"
+            y="0"
+            width="5.161500000000001"
+            height="8"
+            fill="#F44D27"
+          />
+        
+          <rect
+            mask="url(#rect-mask)"
+            data-testid="lang-progress"
+            x="461.2799999999999"
+            y="0"
+            width="4.6035"
+            height="8"
+            fill="#cb171e"
+          />
+        
+      
+    <g transform="translate(25, 25)">
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Python - 34 hrs 18 mins
+      </text>
+    </g>
+  
+    <g transform="translate(230, 25)">
+      <circle cx="5" cy="6" r="5" fill="#858585" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Other - 25 hrs 57 mins
+      </text>
+    </g>
+  
+    <g transform="translate(25, 50)">
+      <circle cx="5" cy="6" r="5" fill="#3178c6" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        TypeScript - 12 hrs 44 mins
+      </text>
+    </g>
+  
+    <g transform="translate(230, 50)">
+      <circle cx="5" cy="6" r="5" fill="#858585" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        MQL - 8 hrs 8 mins
+      </text>
+    </g>
+  
+    <g transform="translate(25, 75)">
+      <circle cx="5" cy="6" r="5" fill="#083fa1" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Markdown - 3 hrs 49 mins
+      </text>
+    </g>
+  
+    <g transform="translate(230, 75)">
+      <circle cx="5" cy="6" r="5" fill="#858585" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Bash - 2 hrs
+      </text>
+    </g>
+  
+    <g transform="translate(25, 100)">
+      <circle cx="5" cy="6" r="5" fill="#292929" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        JSON - 1 hr 46 mins
+      </text>
+    </g>
+  
+    <g transform="translate(230, 100)">
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        HTML - 1 hr 12 mins
+      </text>
+    </g>
+  
+    <g transform="translate(25, 125)">
+      <circle cx="5" cy="6" r="5" fill="#F44D27" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Git Config - 1 hr 1 min
+      </text>
+    </g>
+  
+    <g transform="translate(230, 125)">
+      <circle cx="5" cy="6" r="5" fill="#cb171e" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        YAML - 54 mins
+      </text>
+    </g>
+  
     
-      <circle cx="26" cy="164" r="7" fill="#A1A1AA"/>
-      <text x="40" y="171" fill="#1F2937" font-size="10.5" font-weight="600">Markdown - 3 hrs 49 mins</text>
+    </svg>
+  
+        </g>
+      </svg>
     
-      <circle cx="232" cy="164" r="7" fill="#A1A1AA"/>
-      <text x="246" y="171" fill="#1F2937" font-size="10.5" font-weight="600">Bash - 2 hrs 0 mins</text>
-    
-      <circle cx="26" cy="198" r="7" fill="#F59E0B"/>
-      <text x="40" y="205" fill="#1F2937" font-size="10.5" font-weight="600">JSON - 1 hrs 46 mins</text>
-    
-      <circle cx="232" cy="198" r="7" fill="#E34C26"/>
-      <text x="246" y="205" fill="#1F2937" font-size="10.5" font-weight="600">HTML - 1 hrs 12 mins</text>
-    
-      <circle cx="26" cy="232" r="7" fill="#A1A1AA"/>
-      <text x="40" y="239" fill="#1F2937" font-size="10.5" font-weight="600">Git Config - 1 hrs 1 mins</text>
-    
-      <circle cx="232" cy="232" r="7" fill="#A1A1AA"/>
-      <text x="246" y="239" fill="#1F2937" font-size="10.5" font-weight="600">YAML - 54 mins</text>
-    
-  </svg>
