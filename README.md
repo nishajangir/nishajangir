@@ -70,12 +70,21 @@ These are the areas and tools I work with most often:
   <img src="https://img.shields.io/badge/Telegram%20Bot%20Ops-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot Ops">
 </p>
 
-**Product & Interface Work**
+**Trading & Workflow Systems**
 
 <p>
-  <img src="https://img.shields.io/badge/Dashboards-0f766e?style=for-the-badge&logo=vercel&logoColor=white" alt="Dashboards">
-  <img src="https://img.shields.io/badge/Data%20Pipelines-0ea5e9?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Data Pipelines">
   <img src="https://img.shields.io/badge/MT4%20%2F%20MT5%20Tooling-2563eb?style=for-the-badge&logo=tradingview&logoColor=white" alt="MT4 MT5 Tooling">
+  <img src="https://img.shields.io/badge/Alert%20Workflows-0ea5e9?style=for-the-badge&logo=telegram&logoColor=white" alt="Alert Workflows">
+  <img src="https://img.shields.io/badge/Dashboards-0f766e?style=for-the-badge&logo=vercel&logoColor=white" alt="Dashboards">
+  <img src="https://img.shields.io/badge/Operator%20Visibility-0891b2?style=for-the-badge&logo=grafana&logoColor=white" alt="Operator Visibility">
+ </p>
+
+**Automation & Reporting**
+
+<p>
+  <img src="https://img.shields.io/badge/Data%20Pipelines-0ea5e9?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Data Pipelines">
+  <img src="https://img.shields.io/badge/Reporting%20Workflows-16a34a?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Reporting Workflows">
+  <img src="https://img.shields.io/badge/Background%20Jobs-0f766e?style=for-the-badge&logo=githubactions&logoColor=white" alt="Background Jobs">
   <img src="https://img.shields.io/badge/API%20Integrations-f97316?style=for-the-badge&logo=postman&logoColor=white" alt="API Integrations">
 </p>
 
@@ -105,7 +114,7 @@ These are the areas and tools I work with most often:
   </tr>
 </table>
 
-**Databases**
+**Data & Storage**
 
 <table>
   <tr>
@@ -117,6 +126,17 @@ These are the areas and tools I work with most often:
     <td align="center"><img title="openpyxl" alt="openpyxl" width="40" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" /><br>openpyxl</td>
   </tr>
 </table>
+
+**Libraries & Workflow Tooling**
+
+<p>
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios">
+  <img src="https://img.shields.io/badge/APScheduler-0f766e?style=for-the-badge" alt="APScheduler">
+  <img src="https://img.shields.io/badge/Alembic-6b7280?style=for-the-badge" alt="Alembic">
+  <img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge" alt="React Hook Form">
+  <img src="https://img.shields.io/badge/next--themes-000000?style=for-the-badge" alt="next-themes">
+  <img src="https://img.shields.io/badge/Vercel%20Analytics-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Analytics">
+</p>
 
 **Tools**
 
