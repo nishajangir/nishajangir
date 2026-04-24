@@ -157,16 +157,6 @@ Public profile, repositories, live work, and active stack.
   </picture>
 </p>
 
-### Most Used Languages
-
-Approx. based on tracked source files across current local project repos.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github-profile-assets/language-graph-v2-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset=".github-profile-assets/language-graph-v2.svg" />
-  <img src=".github-profile-assets/language-graph-v2.svg" alt="Most used languages" width="780" />
-</picture>
-
 ### Contribution Activity
 
 <picture>
