@@ -177,7 +177,7 @@ Public profile, repositories, live work, and active stack.
 ### Stargazers Around the World
 
 <p align="center">
-  <img width="100%" src="./profile/stargazers-worldmap.svg" alt="Stargazers around the world" />
+  <img width="100%" src="https://raw.githubusercontent.com/nishajangir/nishajangir/main/profile/stargazers-worldmap.svg?v=20260425-1" alt="Stargazers around the world" />
 </p>
 
 ---
