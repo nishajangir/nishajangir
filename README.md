@@ -175,18 +175,25 @@ These are the areas and tools I work with most often:
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
-    <img width="35%" src="./profile/top-langs-dark.svg" alt="Top Languages" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-light.svg" />
-    <img width="58%" src="./profile/wakatime-dark.svg" alt="Time by Language" />
-  </picture>
-</p>
+<table width="100%">
+  <tr>
+    <td width="36%" valign="top" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
+        <img width="100%" src="./profile/top-langs-dark.svg" alt="Most Used Languages" />
+      </picture>
+    </td>
+    <td width="6%"></td>
+    <td width="58%" valign="top" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-light.svg" />
+        <img width="100%" src="./profile/wakatime-dark.svg" alt="Time by Language" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ## Stargazers :earth_asia:
 
