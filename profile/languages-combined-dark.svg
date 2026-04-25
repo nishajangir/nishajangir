@@ -1,67 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="215" viewBox="0 0 820 215" role="img" aria-label="Most Used Languages and Time by Language">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="245" viewBox="0 0 820 245" role="img" aria-label="Most Used Languages and Time by Language">
 <style>
-.title { font: 700 18px "Segoe UI", Ubuntu, Arial, sans-serif; fill: #60A5FA; }
-.label { font: 600 11.5px "Segoe UI", Ubuntu, Arial, sans-serif; fill: #D1D5DB; }
-.dot { }
+.title { font: 700 18px "Segoe UI", Arial, sans-serif; fill: #60dcf2; }
+.label { font: 600 11.5px "Segoe UI", Arial, sans-serif; fill: #cfd5df; dominant-baseline: middle; }
 </style>
 <rect width="100%" height="100%" fill="transparent"/>
-<text x="28" y="28" class="title">Most Used Languages</text>
-<text x="348" y="28" class="title">Time by Language</text>
-<rect x="28" y="58" width="250" height="8" rx="4" fill="rgba(255,255,255,0.08)" opacity="0.0"/>
-<rect x="28.00" y="58" width="116.38" height="8" rx="0" fill="#3572A5"/>
-<rect x="144.38" y="58" width="85.98" height="8" rx="0" fill="#3178c6"/>
-<rect x="230.36" y="58" width="44.44" height="8" rx="0" fill="#62A8D6"/>
-<rect x="274.80" y="58" width="0.92" height="8" rx="0" fill="#f1e05a"/>
-<rect x="275.73" y="58" width="0.92" height="8" rx="0" fill="#663399"/>
-<rect x="276.65" y="58" width="0.80" height="8" rx="0" fill="#89e051"/>
-<rect x="277.45" y="58" width="0.40" height="8" rx="0" fill="#012456"/>
-<rect x="277.85" y="58" width="0.15" height="8" rx="0" fill="#C1F12E"/>
-<rect x="28" y="58" width="250" height="8" rx="4" fill="none" stroke="transparent"/>
-<rect x="348.00" y="58" width="160.45" height="8" rx="0" fill="#3572A5"/>
-<rect x="508.45" y="58" width="123.59" height="8" rx="0" fill="#858585"/>
-<rect x="632.05" y="58" width="63.21" height="8" rx="0" fill="#3178c6"/>
-<rect x="695.26" y="58" width="40.70" height="8" rx="0" fill="#858585"/>
-<rect x="735.96" y="58" width="17.85" height="8" rx="0" fill="#083fa1"/>
-<rect x="753.81" y="58" width="10.01" height="8" rx="0" fill="#858585"/>
-<rect x="763.82" y="58" width="8.84" height="8" rx="0" fill="#292929"/>
-<rect x="772.66" y="58" width="6.00" height="8" rx="0" fill="#e34c26"/>
-<rect x="778.66" y="58" width="5.09" height="8" rx="0" fill="#F44D27"/>
-<rect x="783.75" y="58" width="4.25" height="8" rx="0" fill="#cb171e"/>
-<rect x="348" y="58" width="440" height="8" rx="4" fill="none" stroke="transparent"/>
-<circle cx="33" cy="96" r="5" fill="#3572A5"/>
-<text x="46" y="100" class="label">Python 46.56%</text>
-<circle cx="33" cy="124" r="5" fill="#3178c6"/>
-<text x="46" y="128" class="label">TypeScript 34.40%</text>
-<circle cx="33" cy="152" r="5" fill="#62A8D6"/>
-<text x="46" y="156" class="label">MQL4 17.78%</text>
-<circle cx="33" cy="180" r="5" fill="#f1e05a"/>
-<text x="46" y="184" class="label">JavaScript 0.37%</text>
-<circle cx="183" cy="96" r="5" fill="#663399"/>
-<text x="196" y="100" class="label">CSS 0.37%</text>
-<circle cx="183" cy="124" r="5" fill="#89e051"/>
-<text x="196" y="128" class="label">Shell 0.32%</text>
-<circle cx="183" cy="152" r="5" fill="#012456"/>
-<text x="196" y="156" class="label">PowerShell 0.16%</text>
-<circle cx="183" cy="180" r="5" fill="#C1F12E"/>
-<text x="196" y="184" class="label">Batchfile 0.06%</text>
-<circle cx="353" cy="96" r="5" fill="#3572A5"/>
-<text x="366" y="100" class="label">Python - 32 hrs 4 mins</text>
-<circle cx="353" cy="124" r="5" fill="#3178c6"/>
-<text x="366" y="128" class="label">TypeScript - 12 hrs 38 mins</text>
-<circle cx="353" cy="152" r="5" fill="#083fa1"/>
-<text x="366" y="156" class="label">Markdown - 3 hrs 34 mins</text>
-<circle cx="353" cy="180" r="5" fill="#292929"/>
-<text x="366" y="184" class="label">JSON - 1 hr 46 mins</text>
-<circle cx="353" cy="208" r="5" fill="#F44D27"/>
-<text x="366" y="212" class="label">Git Config - 1 hr 1 min</text>
-<circle cx="563" cy="96" r="5" fill="#858585"/>
-<text x="576" y="100" class="label">Other - 24 hrs 42 mins</text>
-<circle cx="563" cy="124" r="5" fill="#858585"/>
-<text x="576" y="128" class="label">MQL - 8 hrs 8 mins</text>
-<circle cx="563" cy="152" r="5" fill="#858585"/>
-<text x="576" y="156" class="label">Bash - 2 hrs</text>
-<circle cx="563" cy="180" r="5" fill="#e34c26"/>
-<text x="576" y="184" class="label">HTML - 1 hr 12 mins</text>
-<circle cx="563" cy="208" r="5" fill="#cb171e"/>
-<text x="576" y="212" class="label">YAML - 51 mins</text>
+<text x="24" y="28" class="title">Most Used Languages</text>
+<text x="352" y="28" class="title">Time by Language</text>
+<rect x="24.00" y="60" width="121.96" height="8" fill="#3f79b2" rx="0"/>
+<rect x="145.96" y="60" width="90.11" height="8" fill="#3b7fd1" rx="0"/>
+<rect x="236.07" y="60" width="46.57" height="8" fill="#5fa6da" rx="0"/>
+<rect x="282.65" y="60" width="0.97" height="8" fill="#f6dc4b" rx="0"/>
+<rect x="283.62" y="60" width="0.97" height="8" fill="#6f39b1" rx="0"/>
+<rect x="284.59" y="60" width="0.84" height="8" fill="#85dc45" rx="0"/>
+<rect x="285.42" y="60" width="0.42" height="8" fill="#0a2f74" rx="0"/>
+<rect x="285.84" y="60" width="0.16" height="8" fill="#c2f11b" rx="0"/>
+<rect x="24" y="60" width="262" height="8" fill="none" rx="4" stroke="transparent"/>
+<rect x="352.00" y="60" width="175.58" height="8" fill="#3f79b2" rx="0"/>
+<rect x="527.58" y="60" width="132.84" height="8" fill="#8e8e8e" rx="0"/>
+<rect x="660.41" y="60" width="65.18" height="8" fill="#3b7fd1" rx="0"/>
+<rect x="725.59" y="60" width="41.63" height="8" fill="#8e8e8e" rx="0"/>
+<rect x="767.23" y="60" width="19.54" height="8" fill="#1846a8" rx="0"/>
+<rect x="786.76" y="60" width="10.24" height="8" fill="#8e8e8e" rx="0"/>
+<rect x="797.00" y="60" width="9.04" height="8" fill="#2b2b2b" rx="0"/>
+<rect x="806.05" y="60" width="6.14" height="8" fill="#ef5a2a" rx="0"/>
+<rect x="812.19" y="60" width="5.20" height="8" fill="#ff5328" rx="0"/>
+<rect x="817.39" y="60" width="4.61" height="8" fill="#d91621" rx="0"/>
+<rect x="352" y="60" width="470" height="8" fill="none" rx="4" stroke="transparent"/>
+<circle cx="29" cy="92" r="5.5" fill="#3f79b2"/>
+<text x="42" y="93" class="label">Python 46.56%</text>
+<circle cx="29" cy="120" r="5.5" fill="#3b7fd1"/>
+<text x="42" y="121" class="label">TypeScript 34.40%</text>
+<circle cx="29" cy="148" r="5.5" fill="#5fa6da"/>
+<text x="42" y="149" class="label">MQL4 17.78%</text>
+<circle cx="29" cy="176" r="5.5" fill="#f6dc4b"/>
+<text x="42" y="177" class="label">JavaScript 0.37%</text>
+<circle cx="181" cy="92" r="5.5" fill="#6f39b1"/>
+<text x="194" y="93" class="label">CSS 0.37%</text>
+<circle cx="181" cy="120" r="5.5" fill="#85dc45"/>
+<text x="194" y="121" class="label">Shell 0.32%</text>
+<circle cx="181" cy="148" r="5.5" fill="#0a2f74"/>
+<text x="194" y="149" class="label">PowerShell 0.16%</text>
+<circle cx="181" cy="176" r="5.5" fill="#c2f11b"/>
+<text x="194" y="177" class="label">Batchfile 0.06%</text>
+<circle cx="357" cy="92" r="5.5" fill="#3f79b2"/>
+<text x="370" y="93" class="label">Python - 34 hrs 18 mins</text>
+<circle cx="357" cy="120" r="5.5" fill="#3b7fd1"/>
+<text x="370" y="121" class="label">TypeScript - 12 hrs 44 mins</text>
+<circle cx="357" cy="148" r="5.5" fill="#1846a8"/>
+<text x="370" y="149" class="label">Markdown - 3 hrs 49 mins</text>
+<circle cx="357" cy="176" r="5.5" fill="#2b2b2b"/>
+<text x="370" y="177" class="label">JSON - 1 hr 46 mins</text>
+<circle cx="357" cy="204" r="5.5" fill="#ff5328"/>
+<text x="370" y="205" class="label">Git Config - 1 hr 1 min</text>
+<circle cx="570" cy="92" r="5.5" fill="#8e8e8e"/>
+<text x="583" y="93" class="label">Other - 25 hrs 57 mins</text>
+<circle cx="570" cy="120" r="5.5" fill="#8e8e8e"/>
+<text x="583" y="121" class="label">MQL - 8 hrs 8 mins</text>
+<circle cx="570" cy="148" r="5.5" fill="#8e8e8e"/>
+<text x="583" y="149" class="label">Bash - 2 hrs</text>
+<circle cx="570" cy="176" r="5.5" fill="#ef5a2a"/>
+<text x="583" y="177" class="label">HTML - 1 hr 12 mins</text>
+<circle cx="570" cy="204" r="5.5" fill="#d91621"/>
+<text x="583" y="205" class="label">YAML - 54 mins</text>
 </svg>
