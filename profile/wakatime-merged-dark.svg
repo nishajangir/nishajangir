@@ -1,97 +1,100 @@
 <svg width="432" height="475" viewBox="0 0 432 475" xmlns="http://www.w3.org/2000/svg" style="font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;">
   <g transform="translate(0 12)">
     
-    <text x="216" y="26" fill="#67E8F9" font-size="13" font-weight="700" text-anchor="middle">I mostly worked on Operations System</text>
+    <text x="216" y="26" fill="#67E8F9" font-size="13" font-weight="700" text-anchor="middle">I mostly worked on Bot Operations</text>
     
       <line x1="70" y1="55.0" x2="380" y2="55.0" stroke="#30363D" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="58.0" fill="#8B949E" font-size="9" text-anchor="end">04:12</text>
+      <text x="58" y="58.0" fill="#8B949E" font-size="9" text-anchor="end">16:48</text>
     
       <line x1="70" y1="75.5" x2="380" y2="75.5" stroke="#30363D" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="78.5" fill="#8B949E" font-size="9" text-anchor="end">03:09</text>
+      <text x="58" y="78.5" fill="#8B949E" font-size="9" text-anchor="end">12:36</text>
     
       <line x1="70" y1="96.0" x2="380" y2="96.0" stroke="#30363D" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="99.0" fill="#8B949E" font-size="9" text-anchor="end">02:06</text>
+      <text x="58" y="99.0" fill="#8B949E" font-size="9" text-anchor="end">08:24</text>
     
       <line x1="70" y1="116.5" x2="380" y2="116.5" stroke="#30363D" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="119.5" fill="#8B949E" font-size="9" text-anchor="end">01:03</text>
+      <text x="58" y="119.5" fill="#8B949E" font-size="9" text-anchor="end">04:12</text>
     
       <line x1="70" y1="137.0" x2="380" y2="137.0" stroke="#30363D" stroke-width="1" stroke-dasharray="2 3"/>
       <text x="58" y="140.0" fill="#8B949E" font-size="9" text-anchor="end">0m</text>
     
     
-      <rect x="77.1" y="115.0" width="30" height="22.0" fill="#10A37F" rx="4"/><rect x="77.1" y="112.7" width="30" height="2.4" fill="#2563EB" rx="0"/>
-      <text x="92.14285714285714" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
+      <rect x="77.1" y="79.7" width="30" height="57.3" fill="#10A37F" rx="4"/><rect x="77.1" y="67.8" width="30" height="11.8" fill="#67E8F9" rx="0"/><rect x="77.1" y="66.8" width="30" height="1.0" fill="#2563EB" rx="0"/>
+      <text x="92.14285714285714" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
     
-      <rect x="121.4" y="63.3" width="30" height="73.7" fill="#10A37F" rx="4"/><rect x="121.4" y="59.3" width="30" height="4.0" fill="#67E8F9" rx="0"/>
-      <text x="136.42857142857142" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
+      <rect x="121.4" y="70.1" width="30" height="66.9" fill="#10A37F" rx="4"/><rect x="121.4" y="55.0" width="30" height="15.1" fill="#67E8F9" rx="0"/>
+      <text x="136.42857142857142" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
     
-      <rect x="165.7" y="72.2" width="30" height="64.8" fill="#10A37F" rx="4"/>
-      <text x="180.7142857142857" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
+      <rect x="165.7" y="71.8" width="30" height="65.2" fill="#10A37F" rx="4"/><rect x="165.7" y="64.5" width="30" height="7.3" fill="#67E8F9" rx="0"/>
+      <text x="180.7142857142857" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
     
-      <rect x="210.0" y="73.5" width="30" height="63.5" fill="#10A37F" rx="4"/><rect x="210.0" y="71.1" width="30" height="2.4" fill="#67E8F9" rx="0"/>
-      <text x="225" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
+      <rect x="210.0" y="68.0" width="30" height="69.0" fill="#10A37F" rx="4"/><rect x="210.0" y="66.3" width="30" height="1.8" fill="#67E8F9" rx="0"/>
+      <text x="225" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
     
-      <rect x="254.3" y="130.0" width="30" height="7.0" fill="#10A37F" rx="4"/>
-      <text x="269.2857142857143" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
+      <rect x="254.3" y="75.8" width="30" height="61.2" fill="#10A37F" rx="4"/><rect x="254.3" y="62.3" width="30" height="13.5" fill="#67E8F9" rx="0"/><rect x="254.3" y="61.4" width="30" height="0.9" fill="#2563EB" rx="0"/>
+      <text x="269.2857142857143" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
     
-      <rect x="298.6" y="59.6" width="30" height="77.4" fill="#10A37F" rx="4"/><rect x="298.6" y="55.6" width="30" height="4.0" fill="#67E8F9" rx="0"/><rect x="298.6" y="55.0" width="30" height="0.6" fill="#2563EB" rx="0"/>
-      <text x="313.5714285714286" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
+      <rect x="298.6" y="124.3" width="30" height="12.7" fill="#67E8F9" rx="4"/><rect x="298.6" y="119.9" width="30" height="4.4" fill="#2563EB" rx="0"/><rect x="298.6" y="116.6" width="30" height="3.3" fill="#F59E0B" rx="0"/>
+      <text x="313.5714285714286" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
     
-      <rect x="342.9" y="125.6" width="30" height="11.4" fill="#10A37F" rx="4"/><rect x="342.9" y="112.2" width="30" height="13.3" fill="#67E8F9" rx="0"/><rect x="342.9" y="98.9" width="30" height="13.3" fill="#2563EB" rx="0"/>
-      <text x="357.8571428571429" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
+      <rect x="342.9" y="133.9" width="30" height="3.1" fill="#67E8F9" rx="4"/><rect x="342.9" y="131.8" width="30" height="2.2" fill="#2563EB" rx="0"/>
+      <text x="357.8571428571429" y="151" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
     
     
       <circle cx="74" cy="176" r="5" fill="#10A37F"/>
-      <text x="88" y="180" fill="#C9D1D9" font-size="10">Operations System</text>
+      <text x="88" y="180" fill="#C9D1D9" font-size="10">Bot Operations</text>
     
       <circle cx="260" cy="176" r="5" fill="#67E8F9"/>
-      <text x="274" y="180" fill="#C9D1D9" font-size="10">Trading Tools</text>
+      <text x="274" y="180" fill="#C9D1D9" font-size="10">Operations System</text>
     
       <circle cx="74" cy="198" r="5" fill="#2563EB"/>
-      <text x="88" y="202" fill="#C9D1D9" font-size="10">Automation Project</text>
+      <text x="88" y="202" fill="#C9D1D9" font-size="10">Trading Tools</text>
+    
+      <circle cx="260" cy="198" r="5" fill="#F59E0B"/>
+      <text x="274" y="202" fill="#C9D1D9" font-size="10">Automation Project</text>
     
   
   </g>
   <g transform="translate(0 254)">
     
-    <text x="216" y="24" fill="#67E8F9" font-size="13" font-weight="700" text-anchor="middle">My most productive day was Thursday</text>
+    <text x="216" y="24" fill="#67E8F9" font-size="13" font-weight="700" text-anchor="middle">My most productive day was Monday</text>
     
-      <text x="63.42857142857143" y="102.6730083234245" fill="#C9D1D9" font-size="9" text-anchor="middle">01:14</text>
-      <rect x="48.4" y="109.7" width="30" height="24.3" fill="#67E8F9" rx="4"/>
-      <text x="63.42857142857143" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
-      <text x="63.42857142857143" y="163" fill="#8B949E" font-size="9" text-anchor="middle">6.8%</text>
+      <text x="63.42857142857143" y="56.8348560194287" fill="#C9D1D9" font-size="9" text-anchor="middle">14:23</text>
+      <rect x="48.4" y="63.8" width="30" height="70.2" fill="#67E8F9" rx="4"/>
+      <text x="63.42857142857143" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
+      <text x="63.42857142857143" y="163" fill="#8B949E" font-size="9" text-anchor="middle">17.7%</text>
     
-      <text x="114.28571428571429" y="49.328048619368474" fill="#C9D1D9" font-size="9" text-anchor="middle">03:58</text>
-      <rect x="99.3" y="56.3" width="30" height="77.7" fill="#67E8F9" rx="4"/>
-      <text x="114.28571428571429" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
-      <text x="114.28571428571429" y="163" fill="#8B949E" font-size="9" text-anchor="middle">21.6%</text>
+      <text x="114.28571428571429" y="45" fill="#C9D1D9" font-size="9" text-anchor="middle">16:48</text>
+      <rect x="99.3" y="52.0" width="30" height="82.0" fill="#67E8F9" rx="4"/>
+      <text x="114.28571428571429" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
+      <text x="114.28571428571429" y="163" fill="#8B949E" font-size="9" text-anchor="middle">20.6%</text>
     
-      <text x="165.14285714285714" y="62.193024177566386" fill="#C9D1D9" font-size="9" text-anchor="middle">03:19</text>
-      <rect x="150.1" y="69.2" width="30" height="64.8" fill="#67E8F9" rx="4"/>
-      <text x="165.14285714285714" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
-      <text x="165.14285714285714" y="163" fill="#8B949E" font-size="9" text-anchor="middle">18.0%</text>
+      <text x="165.14285714285714" y="54.235143484941105" fill="#C9D1D9" font-size="9" text-anchor="middle">14:55</text>
+      <rect x="150.1" y="61.2" width="30" height="72.8" fill="#67E8F9" rx="4"/>
+      <text x="165.14285714285714" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
+      <text x="165.14285714285714" y="163" fill="#8B949E" font-size="9" text-anchor="middle">18.3%</text>
     
-      <text x="215.99999999999997" y="61.09735077288941" fill="#C9D1D9" font-size="9" text-anchor="middle">03:22</text>
-      <rect x="201.0" y="68.1" width="30" height="65.9" fill="#67E8F9" rx="4"/>
-      <text x="215.99999999999997" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
-      <text x="215.99999999999997" y="163" fill="#8B949E" font-size="9" text-anchor="middle">18.3%</text>
+      <text x="215.99999999999997" y="56.28077450478284" fill="#C9D1D9" font-size="9" text-anchor="middle">14:30</text>
+      <rect x="201.0" y="63.3" width="30" height="70.7" fill="#67E8F9" rx="4"/>
+      <text x="215.99999999999997" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
+      <text x="215.99999999999997" y="163" fill="#8B949E" font-size="9" text-anchor="middle">17.8%</text>
     
-      <text x="266.85714285714283" y="119.96895230545647" fill="#C9D1D9" font-size="9" text-anchor="middle">21m</text>
-      <rect x="251.9" y="127.0" width="30" height="7.0" fill="#67E8F9" rx="4"/>
-      <text x="266.85714285714283" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
-      <text x="266.85714285714283" y="163" fill="#8B949E" font-size="9" text-anchor="middle">2.0%</text>
+      <text x="266.85714285714283" y="51.12605527928761" fill="#C9D1D9" font-size="9" text-anchor="middle">15:33</text>
+      <rect x="251.9" y="58.1" width="30" height="75.9" fill="#67E8F9" rx="4"/>
+      <text x="266.85714285714283" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
+      <text x="266.85714285714283" y="163" fill="#8B949E" font-size="9" text-anchor="middle">19.1%</text>
     
-      <text x="317.7142857142857" y="45" fill="#C9D1D9" font-size="9" text-anchor="middle">04:12</text>
-      <rect x="302.7" y="52.0" width="30" height="82.0" fill="#67E8F9" rx="4"/>
-      <text x="317.7142857142857" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
-      <text x="317.7142857142857" y="163" fill="#8B949E" font-size="9" text-anchor="middle">22.8%</text>
+      <text x="317.7142857142857" y="106.56942952964695" fill="#C9D1D9" font-size="9" text-anchor="middle">04:11</text>
+      <rect x="302.7" y="113.6" width="30" height="20.4" fill="#67E8F9" rx="4"/>
+      <text x="317.7142857142857" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
+      <text x="317.7142857142857" y="163" fill="#8B949E" font-size="9" text-anchor="middle">5.1%</text>
     
-      <text x="368.57142857142856" y="88.91967234773418" fill="#C9D1D9" font-size="9" text-anchor="middle">01:57</text>
-      <rect x="353.6" y="95.9" width="30" height="38.1" fill="#67E8F9" rx="4"/>
-      <text x="368.57142857142856" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
-      <text x="368.57142857142856" y="163" fill="#8B949E" font-size="9" text-anchor="middle">10.6%</text>
+      <text x="368.57142857142856" y="121.7549519403922" fill="#C9D1D9" font-size="9" text-anchor="middle">01:04</text>
+      <rect x="353.6" y="128.8" width="30" height="5.2" fill="#67E8F9" rx="4"/>
+      <text x="368.57142857142856" y="149" fill="#C9D1D9" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
+      <text x="368.57142857142856" y="163" fill="#8B949E" font-size="9" text-anchor="middle">1.3%</text>
     
-    <text x="216" y="194" fill="#C9D1D9" font-size="12" text-anchor="middle"><tspan font-weight="700">Total:</tspan> 18 hrs 27 mins</text>
+    <text x="216" y="194" fill="#C9D1D9" font-size="12" text-anchor="middle"><tspan font-weight="700">Total:</tspan> 81 hrs 26 mins</text>
   
   </g>
 </svg>
