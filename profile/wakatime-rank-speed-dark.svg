@@ -7,12 +7,12 @@
     <path d="M104 64 L114 94 L146 94 L120 112 L130 144 L104 125 L78 144 L88 112 L62 94 L94 94 Z" fill="#2563EB" opacity="0.9"/>
     <text x="104" y="182" fill="#C9D1D9" font-size="16" font-weight="800" text-anchor="middle">Obsidian</text>
 
-    <text x="184" y="80" fill="#C9D1D9" font-size="23" font-weight="800">Rank #1897</text>
+    <text x="184" y="80" fill="#C9D1D9" font-size="23" font-weight="800">Rank #6460</text>
     <text x="184" y="109" fill="#C9D1D9" font-size="13" font-weight="700">Obsidian Tier</text>
     <text x="184" y="130" fill="#8B949E" font-size="11">#1001+ leaderboard band</text>
     <rect x="184" y="148" width="188" height="9" rx="4.5" fill="#30363D" opacity="0.85"/>
-    <rect x="184" y="148" width="99.2" height="9" rx="4.5" fill="#67E8F9"/>
-    <text x="184" y="181" fill="#C9D1D9" font-size="13" font-weight="700">24 hrs 52 mins</text>
+    <rect x="184" y="148" width="29.1" height="9" rx="4.5" fill="#67E8F9"/>
+    <text x="184" y="181" fill="#C9D1D9" font-size="13" font-weight="700">11 hrs 6 mins</text>
     <text x="184" y="201" fill="#8B949E" font-size="10">weekly coding total</text>
   
   </g>
@@ -56,7 +56,7 @@
       <svg width="14" height="14" viewBox="0 0 14 14"><path d="M7 3 L7 12 M7 12 L3 8 M7 12 L11 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <text x="20" y="12" fill="#C9D1D9" font-size="12">100% decrease</text>
     </g>
-    <text x="216" y="201" fill="#C9D1D9" font-size="12" text-anchor="middle"><tspan font-weight="800">1 hrs 54 mins</tspan> Daily Average</text>
+    <text x="216" y="201" fill="#C9D1D9" font-size="12" text-anchor="middle"><tspan font-weight="800">1 hrs 27 mins</tspan> Daily Average</text>
   
   </g>
 </svg>
