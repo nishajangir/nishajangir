@@ -116,7 +116,7 @@
             data-testid="lang-progress"
             x="0"
             y="0"
-            width="114.6225"
+            width="114.57600000000001"
             height="8"
             fill="#3572A5"
           />
@@ -124,7 +124,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="114.6225"
+            x="114.57600000000001"
             y="0"
             width="80.538"
             height="8"
@@ -134,9 +134,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="195.1605"
+            x="195.114"
             y="0"
-            width="68.262"
+            width="68.3085"
             height="8"
             fill="#858585"
           />
@@ -186,7 +186,7 @@
             data-testid="lang-progress"
             x="414.22200000000004"
             y="0"
-            width="25.993499999999997"
+            width="26.0865"
             height="8"
             fill="#858585"
           />
@@ -194,9 +194,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="440.2155"
+            x="440.30850000000004"
             y="0"
-            width="12.833999999999998"
+            width="12.7875"
             height="8"
             fill="#858585"
           />
@@ -204,7 +204,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="453.0495"
+            x="453.09600000000006"
             y="0"
             width="10.695"
             height="8"
@@ -229,7 +229,7 @@
     <g transform="translate(25, 50)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Other - 31 hrs 7 mins
+        Other - 31 hrs 9 mins
       </text>
     </g>
   
@@ -264,7 +264,7 @@
     <g transform="translate(230, 100)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        MQL - 11 hrs 50 mins
+        MQL - 11 hrs 53 mins
       </text>
     </g>
   
