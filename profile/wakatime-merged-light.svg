@@ -1,91 +1,91 @@
 <svg width="432" height="475" viewBox="0 0 432 475" xmlns="http://www.w3.org/2000/svg" style="font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;">
   <g transform="translate(0 12)">
     
-    <text x="216" y="26" fill="#0F172A" font-size="13" font-weight="700" text-anchor="middle">I mostly worked on Automation Project</text>
+    <text x="216" y="26" fill="#0F172A" font-size="13" font-weight="700" text-anchor="middle">I mostly worked on Trading Tools</text>
     
       <line x1="70" y1="55.0" x2="380" y2="55.0" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="58.0" fill="#64748B" font-size="9" text-anchor="end">0m</text>
+      <text x="58" y="58.0" fill="#64748B" font-size="9" text-anchor="end">6m</text>
     
       <line x1="70" y1="75.5" x2="380" y2="75.5" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="78.5" fill="#64748B" font-size="9" text-anchor="end">0m</text>
+      <text x="58" y="78.5" fill="#64748B" font-size="9" text-anchor="end">4m</text>
     
       <line x1="70" y1="96.0" x2="380" y2="96.0" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="99.0" fill="#64748B" font-size="9" text-anchor="end">0m</text>
+      <text x="58" y="99.0" fill="#64748B" font-size="9" text-anchor="end">3m</text>
     
       <line x1="70" y1="116.5" x2="380" y2="116.5" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="2 3"/>
-      <text x="58" y="119.5" fill="#64748B" font-size="9" text-anchor="end">0m</text>
+      <text x="58" y="119.5" fill="#64748B" font-size="9" text-anchor="end">1m</text>
     
       <line x1="70" y1="137.0" x2="380" y2="137.0" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="2 3"/>
       <text x="58" y="140.0" fill="#64748B" font-size="9" text-anchor="end">0m</text>
     
     
       
-      <text x="92.14285714285714" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
+      <text x="92.14285714285714" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
     
       
-      <text x="136.42857142857142" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
+      <text x="136.42857142857142" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
     
       
-      <text x="180.7142857142857" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
+      <text x="180.7142857142857" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
     
       
-      <text x="225" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
+      <text x="225" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
     
       
-      <text x="269.2857142857143" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
+      <text x="269.2857142857143" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
+    
+      <rect x="298.6" y="55.0" width="30" height="82.0" fill="#10A37F" rx="4"/>
+      <text x="313.5714285714286" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
     
       
-      <text x="313.5714285714286" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
-    
-      
-      <text x="357.8571428571429" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
+      <text x="357.8571428571429" y="151" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
     
     
       <circle cx="74" cy="176" r="5" fill="#10A37F"/>
-      <text x="88" y="180" fill="#1F2937" font-size="10">Automation Project</text>
+      <text x="88" y="180" fill="#1F2937" font-size="10">Trading Tools</text>
     
   
   </g>
   <g transform="translate(0 254)">
     
-    <text x="216" y="24" fill="#0F172A" font-size="13" font-weight="700" text-anchor="middle">My most productive day was Saturday</text>
+    <text x="216" y="24" fill="#0F172A" font-size="13" font-weight="700" text-anchor="middle">My most productive day was Friday</text>
     
       <text x="63.42857142857143" y="125" fill="#1F2937" font-size="9" text-anchor="middle">0m</text>
       <rect x="48.4" y="132.0" width="30" height="2.0" fill="#2563EB" rx="4"/>
-      <text x="63.42857142857143" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
+      <text x="63.42857142857143" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
       <text x="63.42857142857143" y="163" fill="#64748B" font-size="9" text-anchor="middle">0.0%</text>
     
       <text x="114.28571428571429" y="125" fill="#1F2937" font-size="9" text-anchor="middle">0m</text>
       <rect x="99.3" y="132.0" width="30" height="2.0" fill="#2563EB" rx="4"/>
-      <text x="114.28571428571429" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sun</text>
+      <text x="114.28571428571429" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
       <text x="114.28571428571429" y="163" fill="#64748B" font-size="9" text-anchor="middle">0.0%</text>
     
       <text x="165.14285714285714" y="125" fill="#1F2937" font-size="9" text-anchor="middle">0m</text>
       <rect x="150.1" y="132.0" width="30" height="2.0" fill="#2563EB" rx="4"/>
-      <text x="165.14285714285714" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Mon</text>
+      <text x="165.14285714285714" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
       <text x="165.14285714285714" y="163" fill="#64748B" font-size="9" text-anchor="middle">0.0%</text>
     
       <text x="215.99999999999997" y="125" fill="#1F2937" font-size="9" text-anchor="middle">0m</text>
       <rect x="201.0" y="132.0" width="30" height="2.0" fill="#2563EB" rx="4"/>
-      <text x="215.99999999999997" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Tue</text>
+      <text x="215.99999999999997" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
       <text x="215.99999999999997" y="163" fill="#64748B" font-size="9" text-anchor="middle">0.0%</text>
     
       <text x="266.85714285714283" y="125" fill="#1F2937" font-size="9" text-anchor="middle">0m</text>
       <rect x="251.9" y="132.0" width="30" height="2.0" fill="#2563EB" rx="4"/>
-      <text x="266.85714285714283" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Wed</text>
+      <text x="266.85714285714283" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
       <text x="266.85714285714283" y="163" fill="#64748B" font-size="9" text-anchor="middle">0.0%</text>
     
-      <text x="317.7142857142857" y="125" fill="#1F2937" font-size="9" text-anchor="middle">0m</text>
-      <rect x="302.7" y="132.0" width="30" height="2.0" fill="#2563EB" rx="4"/>
-      <text x="317.7142857142857" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Thu</text>
-      <text x="317.7142857142857" y="163" fill="#64748B" font-size="9" text-anchor="middle">0.0%</text>
+      <text x="317.7142857142857" y="45" fill="#1F2937" font-size="9" text-anchor="middle">6m</text>
+      <rect x="302.7" y="52.0" width="30" height="82.0" fill="#2563EB" rx="4"/>
+      <text x="317.7142857142857" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
+      <text x="317.7142857142857" y="163" fill="#64748B" font-size="9" text-anchor="middle">100.0%</text>
     
       <text x="368.57142857142856" y="125" fill="#1F2937" font-size="9" text-anchor="middle">0m</text>
       <rect x="353.6" y="132.0" width="30" height="2.0" fill="#2563EB" rx="4"/>
-      <text x="368.57142857142856" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Fri</text>
+      <text x="368.57142857142856" y="149" fill="#1F2937" font-size="10" font-weight="700" text-anchor="middle">Sat</text>
       <text x="368.57142857142856" y="163" fill="#64748B" font-size="9" text-anchor="middle">0.0%</text>
     
-    <text x="216" y="194" fill="#1F2937" font-size="12" text-anchor="middle"><tspan font-weight="700">Total:</tspan> 0 mins</text>
+    <text x="216" y="194" fill="#1F2937" font-size="12" text-anchor="middle"><tspan font-weight="700">Total:</tspan> 6 mins</text>
   
   </g>
 </svg>
