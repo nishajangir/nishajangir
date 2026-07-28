@@ -117,7 +117,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="117.74"
+          width="117.83"
           height="8"
           fill="#3572A5"
         />
@@ -125,9 +125,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="117.74"
+          x="117.83"
           y="0"
-          width="82.54"
+          width="82.48"
           height="8"
           fill="#3178c6"
         />
@@ -135,9 +135,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="200.28"
+          x="200.31"
           y="0"
-          width="44.29"
+          width="44.26"
           height="8"
           fill="#62A8D6"
         />
@@ -218,21 +218,21 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 47.09%
+        Python 47.13%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 33.02%
+        TypeScript 32.99%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#62A8D6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        MQL4 17.72%
+        MQL4 17.70%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
