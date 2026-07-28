@@ -164,9 +164,9 @@ These are the areas and tools I work with most often:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
-    <img width="49%" src="./profile/stats-dark.svg" alt="GitHub Stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=20260728-2" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg?v=20260728-2" />
+    <img width="49%" src="./profile/stats-dark.svg?v=20260728-2" alt="GitHub Stats" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=nishajangir&theme=github-dark-blue&hide_border=true&background=00000000&stroke=30363D&ring=67E8F9&fire=67E8F9&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=8B949E" />
@@ -177,9 +177,9 @@ These are the areas and tools I work with most often:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-combined-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/languages-combined-light.svg" />
-    <img width="100%" src="./profile/languages-combined-dark.svg" alt="Most Used Languages and Time by Language" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-combined-dark.svg?v=20260728-2" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/languages-combined-light.svg?v=20260728-2" />
+    <img width="100%" src="./profile/languages-combined-dark.svg?v=20260728-2" alt="Most Used Languages and Time by Language" />
   </picture>
 </p>
 
