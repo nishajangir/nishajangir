@@ -52,6 +52,31 @@ jobs:
           path: profile/top-langs-light.svg
           token: ${{ secrets.README_STATS_TOKEN || github.token }}
 
+      - name: Keep last working GitHub cards on API errors
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          validate_card() {
+            local file="$1"
+            local expected_text="$2"
+
+            if [ -s "$file" ] \
+              && grep -Fq "$expected_text" "$file" \
+              && ! grep -Eiq 'failed to retrieve|api issue|something went wrong|rate limit' "$file"; then
+              echo "$file is valid."
+              return
+            fi
+
+            echo "::warning file=$file::GitHub API returned an invalid card; preserving the last working version."
+            git restore --source=HEAD -- "$file"
+          }
+
+          validate_card profile/stats-dark.svg "Total Stars Earned:"
+          validate_card profile/stats-light.svg "Total Stars Earned:"
+          validate_card profile/top-langs-dark.svg 'data-testid="lang-name"'
+          validate_card profile/top-langs-light.svg 'data-testid="lang-name"'
+
       - name: Generate WakaTime card (dark)
         run: >
           curl -fsSL
