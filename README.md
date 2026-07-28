@@ -166,12 +166,7 @@ These are the areas and tools I work with most often:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=20260728-2" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg?v=20260728-2" />
-    <img width="49%" src="./profile/stats-dark.svg?v=20260728-2" alt="GitHub Stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=nishajangir&theme=github-dark-blue&hide_border=true&background=00000000&stroke=30363D&ring=67E8F9&fire=67E8F9&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=8B949E" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=nishajangir&theme=default&hide_border=true&background=00000000&stroke=D0D7DE&ring=0F172A&fire=0F172A&currStreakLabel=0F172A&sideLabels=1F2937&dates=64748B" />
-    <img width="49%" src="https://streak-stats.demolab.com/?user=nishajangir&theme=github-dark-blue&hide_border=true&background=00000000&stroke=30363D&ring=67E8F9&fire=67E8F9&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" />
+    <img width="60%" src="./profile/stats-dark.svg?v=20260728-2" alt="GitHub Stats" />
   </picture>
 </p>
 
