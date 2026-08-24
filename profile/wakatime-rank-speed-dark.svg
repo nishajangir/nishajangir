@@ -11,8 +11,8 @@
     <text x="184" y="109" fill="#C9D1D9" font-size="13" font-weight="700">Weekly Tier</text>
     <text x="184" y="130" fill="#8B949E" font-size="11">#1-10 leaderboard band</text>
     <rect x="184" y="148" width="188" height="9" rx="4.5" fill="#30363D" opacity="0.85"/>
-    <rect x="184" y="148" width="25.7" height="9" rx="4.5" fill="#67E8F9"/>
-    <text x="184" y="181" fill="#C9D1D9" font-size="13" font-weight="700">5 hrs 28 mins</text>
+    <rect x="184" y="148" width="25.6" height="9" rx="4.5" fill="#67E8F9"/>
+    <text x="184" y="181" fill="#C9D1D9" font-size="13" font-weight="700">5 hrs 26 mins</text>
     <text x="184" y="201" fill="#8B949E" font-size="10">weekly coding total</text>
   
   </g>
